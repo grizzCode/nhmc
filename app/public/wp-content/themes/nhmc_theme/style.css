@@ -1,0 +1,25 @@
+
+body {
+  padding: 0px;
+  margin: 0px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.nav-container {
+  margin-top: 6vh;
+  padding: 3vh 10vw 3vh 10vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: black;
+}
+
+.nav-container a {
+  color: white;
+  text-decoration: none;
+  transition: color 1s, border-bottom 1s;
+}
+
+.nav-container a:hover {
+  color: #e6ae48;
+}
