@@ -2,7 +2,7 @@
 
 <div id="main">
   <div id="content">
-    <h1>Main Content Area</h1>
+    <h1 class="main">Main Content Area</h1>
   </div>
 </div>
 

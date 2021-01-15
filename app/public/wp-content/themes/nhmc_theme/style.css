@@ -6,20 +6,31 @@ body {
 }
 
 .nav-container {
-  margin-top: 6vh;
-  padding: 3vh 10vw 3vh 10vw;
+  height: 4vh;
+  padding: 3vh 16vw 3vh 16vw;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   background-color: black;
+  position: sticky;
+  top: 0;
 }
 
 .nav-container a {
   color: white;
   text-decoration: none;
-  transition: color 1s, border-bottom 1s;
+  transition: all .2s ease-in-out; 
 }
 
 .nav-container a:hover {
   color: #e6ae48;
+  margin-top: 5px;
+}
+
+.spacer {
+  height: 200px;
+}
+
+.main {
+  height: 1900px;
 }
