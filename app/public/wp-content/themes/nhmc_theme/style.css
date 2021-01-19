@@ -1,8 +1,6 @@
-/* html {
-  background-image: url('./images/NHMC3.jpg');
-  background-repeat: no-repeat;
-  background-size: auto;
-} */
+html {
+  background-color: #F8F8F8;
+}
 
 body {
   padding: 0px;
@@ -88,11 +86,17 @@ body {
 #about-text {
   background-color:white;
   width: 60%;
-  height: 600px;
   padding: 20px 40px 20px 40px;
   margin: auto;
   position: relative;
   top: -80px;
+}
+
+#about-text p {
+  margin: 20px 60px 20px 60px;
+  font-size: 16px;
+  color: #807f7f;
+  line-height: 24px;
 }
 
 .scroll-divider {
