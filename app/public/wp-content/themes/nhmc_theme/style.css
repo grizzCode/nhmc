@@ -16,14 +16,15 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  padding: 0px 80px 0px 80px;
+  padding: 0px 90px 0px 90px;
   background-color: black;
   position: sticky;
   top: 0;
+  z-index: 100;
 }
 
 .nav-container a {
-  color: white;
+  color: rgb(218, 218, 218);
   text-decoration: none;
   transition: all .2s ease-in-out; 
 }
@@ -53,8 +54,9 @@ body {
   width: 800px;
   margin: auto;
   padding-top: 2%;
-  padding-bottom: 1%;
+  /* padding-bottom: 1%; */
   background-image: url('./images/New-Logo.png');
   background-repeat: no-repeat;
   background-size: auto;
 }
+

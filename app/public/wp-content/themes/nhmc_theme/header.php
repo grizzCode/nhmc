@@ -9,8 +9,7 @@
 </head>
 
 <div class="head-container">
-  <div class="head-logo">
-  </div>
+  <div class="head-logo"></div>
 </div>
 
 <div class="nav-container">
@@ -21,5 +20,6 @@
   <a title="BLOG" href="blog/">BLOG</a>
   <a title="CONTACT NHMC" href="contact-nhmc/">CONTACT NHMC</a>
 </div>
+
 
 <body>
