@@ -64,3 +64,41 @@ body {
   background-color: #e6ae48!important;
   border-color:#e6ae48!important;
 }
+
+.content-wrapper {
+  
+
+}
+
+#divider {
+  height: 60px;
+  background-color: black;
+  width: 100%;
+}
+
+#about-img {
+  background-image: url('./images/NHMC-Mission.jpg');
+  background-size: cover;
+  height: 40vw;
+  width: 80%;
+  margin: auto;
+  margin-top: 20px;
+}
+
+#about-text {
+  background-color:white;
+  width: 60%;
+  height: 600px;
+  padding: 20px 40px 20px 40px;
+  margin: auto;
+  position: relative;
+  top: -80px;
+}
+
+.scroll-divider {
+  background-image: url('./images/scroll-divider.JPG');
+  background-repeat: no-repeat;
+  height: 24px;
+  width: 269px;
+  margin: auto;
+}
