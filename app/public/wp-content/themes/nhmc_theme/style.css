@@ -1,3 +1,8 @@
+/* html {
+  background-image: url('./images/NHMC3.jpg');
+  background-repeat: no-repeat;
+  background-size: auto;
+} */
 
 body {
   padding: 0px;
@@ -6,8 +11,9 @@ body {
 }
 
 .nav-container {
-  height: 4vh;
-  padding: 3vh 16vw 3vh 16vw;
+  height: 3%;
+  padding: 2% 10% 2% 10%;
+  margin-top: 2%;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -25,6 +31,8 @@ body {
 .nav-container a:hover {
   color: #e6ae48;
   margin-top: 5px;
+  transform: scale(1.1);
+  font-weight: 500;
 }
 
 .spacer {
@@ -33,4 +41,13 @@ body {
 
 .main {
   height: 1900px;
+}
+
+.head-logo {
+  height: 110px;
+  width: 800px;
+  margin: auto;
+  background-image: url('./images/New-Logo.png');
+  background-repeat: no-repeat;
+  background-size: auto;
 }
