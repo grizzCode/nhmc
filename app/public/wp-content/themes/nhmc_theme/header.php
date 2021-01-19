@@ -8,16 +8,18 @@
   <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
 </head>
 
-
+<div class="head-container">
   <div class="head-logo">
   </div>
-  <div class="nav-container">
-    <a title="HOME" href="/">HOME</a>
-    <a title="NHMC BOD" href="nhmc-bod/">NHMC BOD</a>
-    <a title="NHMC PROGRAMS" href="/">NHMC PROGRAMS</a>
-    <a title="SUPPORT" href="/">SUPPORT</a>
-    <a title="BLOG" href="blog/">BLOG</a>
-    <a title="CONTACT NHMC" href="contact-nhmc/">CONTACT NHMC</a>
-  </div>
+</div>
 
-  <body>
+<div class="nav-container">
+  <a title="HOME" href="/">HOME</a>
+  <a title="NHMC BOD" href="nhmc-bod/">NHMC BOD</a>
+  <a title="NHMC PROGRAMS" href="/">NHMC PROGRAMS</a>
+  <a title="SUPPORT" href="/">SUPPORT</a>
+  <a title="BLOG" href="blog/">BLOG</a>
+  <a title="CONTACT NHMC" href="contact-nhmc/">CONTACT NHMC</a>
+</div>
+
+<body>
