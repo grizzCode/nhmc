@@ -98,7 +98,11 @@ body {
 .scroll-divider {
   background-image: url('./images/scroll-divider.JPG');
   background-repeat: no-repeat;
-  height: 24px;
-  width: 269px;
+  background-size: contain;
+  height: 30px;
+  width: 30%;
   margin: auto;
+  margin-top: 4%;
+  margin-bottom: 4%;
 }
+
