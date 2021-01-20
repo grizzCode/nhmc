@@ -94,7 +94,7 @@ if (!defined('THEME_IMG_PATH')) {
           <div class="service-item-text">
             <h4>BUDDING CREATIVES</h4>
             <p>Supporting the clear majority of life's students that learn best in hands on situations, with rewarding results
-               to be enjoyed for years to come.
+              to be enjoyed for years to come.
             </p>
           </div>
         </div>
@@ -108,8 +108,12 @@ if (!defined('THEME_IMG_PATH')) {
             </p>
           </div>
         </div>
-
       </div>
+    </div>
+    <div id="quotes">
+        <?php
+        echo do_shortcode('[smartslider3 slider="3"]');
+        ?>
     </div>
   </div>
 </div>
