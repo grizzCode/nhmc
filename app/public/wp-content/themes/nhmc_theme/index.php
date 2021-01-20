@@ -27,6 +27,10 @@
         and societal values as they tap into the rich maritime traditions our country has to offer.
         New interests will be developed and innate potential realized.
       </p>
+      <div id="about-buttons">
+        <a href="/contact" class="button-style-1">CONTACT</a>
+        <a href="/support" class="button-style-2">SUPPORT</a>
+      </div>
     </div>
   </div>
 </div>

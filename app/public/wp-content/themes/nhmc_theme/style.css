@@ -86,10 +86,11 @@ body {
 #about-text {
   background-color:white;
   width: 60%;
-  padding: 20px 40px 20px 40px;
+  padding: 20px 40px 60px 40px;
   margin: auto;
   position: relative;
   top: -80px;
+  
 }
 
 #about-text p {
@@ -110,3 +111,47 @@ body {
   margin-bottom: 4%;
 }
 
+#about-buttons {
+  height: 60px;
+  border-top: 1px solid grey;
+  margin: 7% 60px 0px 60px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button-style-1 {
+  border: 2px solid black;
+  padding: 10px 30px 10px 30px;
+  margin-top: 8%;
+  margin-right: 8px;
+  text-decoration: none;
+  color: black;
+  text-align: center;
+  font-size: 14px;
+  letter-spacing: 1.8px;
+}
+
+.button-style-1:hover {
+  border: 2px solid #e6ae48;
+  background-color: #e6ae48;
+  color: black;
+}
+
+.button-style-2 {
+  background-color:#e6ae48;
+  border: 2px solid #e6ae48;
+  padding: 10px 30px 10px 30px;
+  margin-top: 8%;
+  margin-left: 8px;
+  text-decoration: none;
+  color: white;
+  text-align: center;
+  font-size: 14px;
+  letter-spacing: 1.8px;
+}
+
+.button-style-2:hover {
+  background-color: white;
+  color: #e6ae48;
+}
