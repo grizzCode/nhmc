@@ -1,4 +1,8 @@
 <?php get_header(); ?>
+<?php
+if (!defined('THEME_IMG_PATH')) {
+  define('THEME_IMG_PATH', get_stylesheet_directory_uri() . '/images');
+} ?>
 
 <div id="main">
   <div id="slider">
@@ -50,25 +54,65 @@
       <div class="building-col">
         <h4>Building Teams</h4>
         <p>Teams build vital communication and work skills, improving performance at home, at school and in their
-           community
+          community
         </p>
       </div>
       <div class="building-col">
         <h4>Building Community</h4>
         <p>NHMC graduates return to the community, eager to give back, as matured, confident and productive/skilled
-           members of our Wasatch Front population
+          members of our Wasatch Front population
         </p>
       </div>
       <div class="building-col">
         <h4>Building Life Skills</h4>
-        <p>New Horizons programs build maritime experience and trade skills in youth, families and adults. Our sailing 
+        <p>New Horizons programs build maritime experience and trade skills in youth, families and adults. Our sailing
           and boat building offerings not only teach students the skills of the craft, but also the confidence to put
-           those skills to the test in the real world
+          those skills to the test in the real world
         </p>
       </div>
-     </div>
+    </div>
+    <div id="service-wrapper">
+      <img id="tools-img" src="<?php echo THEME_IMG_PATH; ?>/boat-building-tools.jpg" alt="Woodworking Tools" />
+      <div id="service-content">
+        <h4>OUR SERIVCE</h4>
+        <div id="black-divider"></div>
+        <div class="service-item">
+          <div class="icon">
+            <i class="fas fa-anchor"></i>
+          </div>
+          <div class="service-item-text">
+            <h4>AT RISK YOUTH</h4>
+            <p>In reality, all youth at risk. We help youth build confidence and skills important for resisting peer
+              pressure and navigating rough waters.
+            </p>
+          </div>
+        </div>
+        <div class="service-item">
+          <div class="icon">
+            <i class="fas fa-cubes"></i>
+          </div>
+          <div class="service-item-text">
+            <h4>BUDDING CREATIVES</h4>
+            <p>Supporting the clear majority of life's students that learn best in hands on situations, with rewarding results
+               to be enjoyed for years to come.
+            </p>
+          </div>
+        </div>
+        <div class="service-item">
+          <div class="icon">
+            <i class="fas fa-life-ring"></i>
+          </div>
+          <div class="service-item-text">
+            <h4>YOUR COMMUNITY</h4>
+            <p>Building your community through programs focused on education, skills, integrity, team work and more.
+            </p>
+          </div>
+        </div>
+
+      </div>
     </div>
   </div>
+</div>
 
 
-  <?php get_footer(); ?>
+<?php get_footer(); ?>

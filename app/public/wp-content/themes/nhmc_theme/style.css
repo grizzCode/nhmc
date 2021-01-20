@@ -179,11 +179,69 @@ body {
 
 #building {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   margin: 5% 5% 5% 5%;
 }
 
 .building-col {
   width: 22%;
+  
 }
 
+.building-col p {
+  color: #807f7f;
+  font-size: 16.5px;
+}
+
+#tools-img {
+  width: 50%;
+  background-image: url('./images/boat-building-tools.jpg');
+  background-size: contain;
+  background-position:center center;
+}
+
+#service-wrapper {
+  display: flex;
+}
+
+#service-content {
+  background-color: white;
+  padding: 2% 3% 4% 3%;
+  width: 50%;
+}
+
+#black-divider {
+  border-bottom: 2px solid black;
+  height: 2px;
+  width: 110px;
+  margin: 6px 0px 6px 0px;
+}
+
+.icon {
+  width: 75px;
+  height: 75px;
+  background-color: #e6ae48;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 28px;
+  color: white;
+  flex-shrink: 0;
+}
+
+.service-item {
+  display: flex;
+  align-items: center;
+}
+
+.service-item-text {
+  width: 75%;
+  letter-spacing: 1.8px;
+  margin: 0% 8% 0% 8%;
+}
+
+.service-item-text h4 {
+  letter-spacing: 1.8px;
+  margin-bottom: 0;
+}

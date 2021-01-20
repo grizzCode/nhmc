@@ -1,0 +1,8 @@
+[20-Jan-2021 18:59:12 UTC] PHP Warning:  Use of undefined constant THEME_IMG_PATH - assumed 'THEME_IMG_PATH' (this will throw an Error in a future version of PHP) in C:\Users\cbuxton\Local Sites\nhmc\app\public\wp-content\themes\nhmc_theme\index.php on line 3
+[20-Jan-2021 18:59:12 UTC] PHP Stack trace:
+[20-Jan-2021 18:59:12 UTC] PHP   1. {main}() C:\Users\cbuxton\Local Sites\nhmc\app\public\index.php:0
+[20-Jan-2021 18:59:12 UTC] PHP   2. require() C:\Users\cbuxton\Local Sites\nhmc\app\public\index.php:17
+[20-Jan-2021 18:59:12 UTC] PHP   3. require_once() C:\Users\cbuxton\Local Sites\nhmc\app\public\wp-blog-header.php:19
+[20-Jan-2021 18:59:12 UTC] PHP   4. include() C:\Users\cbuxton\Local Sites\nhmc\app\public\wp-includes\template-loader.php:106
+[20-Jan-2021 20:12:49 UTC] PHP Parse error:  syntax error, unexpected 'name' (T_STRING), expecting ']' in C:\Users\cbuxton\Local Sites\nhmc\app\public\wp-content\themes\nhmc_theme\index.php on line 79
+[20-Jan-2021 20:13:36 UTC] PHP Parse error:  syntax error, unexpected '/' in C:\Users\cbuxton\Local Sites\nhmc\app\public\wp-content\themes\nhmc_theme\index.php on line 80
