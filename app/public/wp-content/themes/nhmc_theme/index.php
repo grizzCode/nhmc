@@ -35,13 +35,40 @@
     <div id="mission">
       <h4>OUR MISSION</h4>
       <div class="white-border"></div>
-      <p>“New Horizons Maritime Center provides maritime educational opportunities to at risk youth, 
-        as well as the general public. Using a unique curriculum of practical and hands on applications 
+      <p>“New Horizons Maritime Center provides maritime educational opportunities to at risk youth,
+        as well as the general public. Using a unique curriculum of practical and hands on applications
         new skills are fostered opening doors to self-confidence and new levels of achievement.”
       </p>
     </div>
+    <div id="building">
+      <div class="building-col">
+        <h4>Building Confidence</h4>
+        <p>Our programs give our participants the skills, experience and confidence necessary to realize their
+          true potentials
+        </p>
+      </div>
+      <div class="building-col">
+        <h4>Building Teams</h4>
+        <p>Teams build vital communication and work skills, improving performance at home, at school and in their
+           community
+        </p>
+      </div>
+      <div class="building-col">
+        <h4>Building Community</h4>
+        <p>NHMC graduates return to the community, eager to give back, as matured, confident and productive/skilled
+           members of our Wasatch Front population
+        </p>
+      </div>
+      <div class="building-col">
+        <h4>Building Life Skills</h4>
+        <p>New Horizons programs build maritime experience and trade skills in youth, families and adults. Our sailing 
+          and boat building offerings not only teach students the skills of the craft, but also the confidence to put
+           those skills to the test in the real world
+        </p>
+      </div>
+     </div>
+    </div>
   </div>
-</div>
 
 
-<?php get_footer(); ?>
+  <?php get_footer(); ?>

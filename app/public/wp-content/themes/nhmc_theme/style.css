@@ -158,17 +158,32 @@ body {
 
 #mission {
   background-color: #252525;
-  color: white;
+  color: rgb(236, 236, 236);
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  padding: 5% 20% 5% 20%; 
+  padding: 3% 20% 5% 20%; 
+}
+
+#mission p {
+  font-family: 'Roboto Slab', serif;
 }
 
 .white-border {
   border-bottom: 2px solid white;
   height: 2px;
-  width: 90px;
+  width: 110px;
   margin: 6px 0px 6px 0px;
 }
+
+#building {
+  display: flex;
+  justify-content: space-between;
+  margin: 5% 5% 5% 5%;
+}
+
+.building-col {
+  width: 22%;
+}
+

@@ -4,8 +4,9 @@
   <title>NHMC</title>
   <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>">
   <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
+
 </head>
 
 <div class="head-container">
