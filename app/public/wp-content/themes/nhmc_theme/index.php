@@ -32,6 +32,14 @@
         <a href="/support" class="button-style-2">SUPPORT</a>
       </div>
     </div>
+    <div id="mission">
+      <h4>OUR MISSION</h4>
+      <div class="white-border"></div>
+      <p>“New Horizons Maritime Center provides maritime educational opportunities to at risk youth, 
+        as well as the general public. Using a unique curriculum of practical and hands on applications 
+        new skills are fostered opening doors to self-confidence and new levels of achievement.”
+      </p>
+    </div>
   </div>
 </div>
 

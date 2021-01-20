@@ -94,7 +94,7 @@ body {
 }
 
 #about-text p {
-  margin: 20px 60px 20px 60px;
+  margin: 20px 60px 0px 60px;
   font-size: 16px;
   color: #807f7f;
   line-height: 24px;
@@ -154,4 +154,21 @@ body {
 .button-style-2:hover {
   background-color: white;
   color: #e6ae48;
+}
+
+#mission {
+  background-color: #252525;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 5% 20% 5% 20%; 
+}
+
+.white-border {
+  border-bottom: 2px solid white;
+  height: 2px;
+  width: 90px;
+  margin: 6px 0px 6px 0px;
 }
