@@ -115,6 +115,17 @@ if (!defined('THEME_IMG_PATH')) {
         echo do_shortcode('[smartslider3 slider="3"]');
         ?>
     </div>
+    <div id="support">
+      <div id="support-text">
+      <h4>WANT TO SUPPORT NHMC? VOLUNTEER OR DONATE</h4>
+      <h3>Your support is greatly appreciated by New Horizons
+         Maritime Center and our benefactors
+      </h3>
+      </div>
+      <div id="support-button">
+        <a href="/support" class="button-style-2">SUPPORT</a>
+      </div>
+    </div>
   </div>
 </div>
 
