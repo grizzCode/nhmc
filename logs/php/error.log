@@ -6,3 +6,10 @@
 [20-Jan-2021 18:59:12 UTC] PHP   4. include() C:\Users\cbuxton\Local Sites\nhmc\app\public\wp-includes\template-loader.php:106
 [20-Jan-2021 20:12:49 UTC] PHP Parse error:  syntax error, unexpected 'name' (T_STRING), expecting ']' in C:\Users\cbuxton\Local Sites\nhmc\app\public\wp-content\themes\nhmc_theme\index.php on line 79
 [20-Jan-2021 20:13:36 UTC] PHP Parse error:  syntax error, unexpected '/' in C:\Users\cbuxton\Local Sites\nhmc\app\public\wp-content\themes\nhmc_theme\index.php on line 80
+[20-Jan-2021 23:10:35 UTC] PHP Warning:  Creating default object from empty value in C:\Users\cbuxton\Local Sites\nhmc\app\public\wp-content\plugins\wp-latest-posts\inc\wplp-admin.inc.php on line 2256
+[20-Jan-2021 23:10:35 UTC] PHP Stack trace:
+[20-Jan-2021 23:10:35 UTC] PHP   1. {main}() C:\Users\cbuxton\Local Sites\nhmc\app\public\wp-admin\admin-ajax.php:0
+[20-Jan-2021 23:10:35 UTC] PHP   2. do_action() C:\Users\cbuxton\Local Sites\nhmc\app\public\wp-admin\admin-ajax.php:184
+[20-Jan-2021 23:10:35 UTC] PHP   3. WP_Hook->do_action() C:\Users\cbuxton\Local Sites\nhmc\app\public\wp-includes\plugin.php:484
+[20-Jan-2021 23:10:35 UTC] PHP   4. WP_Hook->apply_filters() C:\Users\cbuxton\Local Sites\nhmc\app\public\wp-includes\class-wp-hook.php:311
+[20-Jan-2021 23:10:35 UTC] PHP   5. WPLPAdmin->getCountPosts() C:\Users\cbuxton\Local Sites\nhmc\app\public\wp-includes\class-wp-hook.php:287

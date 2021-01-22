@@ -71,11 +71,11 @@ if (!defined('THEME_IMG_PATH')) {
         </p>
       </div>
     </div>
-    <div id="service-wrapper">
-      <img id="tools-img" src="<?php echo THEME_IMG_PATH; ?>/boat-building-tools.jpg" alt="Woodworking Tools" />
-      <div id="service-content">
+    <div class="split-wrapper">
+      <img class="half-img" src="<?php echo THEME_IMG_PATH; ?>/boat-building-tools.jpg" alt="Woodworking Tools" />
+      <div class="split-content">
         <h4>OUR SERIVCE</h4>
-        <div id="black-divider"></div>
+        <div class="black-divider"></div>
         <div class="service-item">
           <div class="icon">
             <i class="fas fa-anchor"></i>
@@ -111,20 +111,38 @@ if (!defined('THEME_IMG_PATH')) {
       </div>
     </div>
     <div id="quotes">
-        <?php
-        echo do_shortcode('[smartslider3 slider="3"]');
-        ?>
+      <?php
+      echo do_shortcode('[smartslider3 slider="3"]');
+      ?>
     </div>
-    <div id="support">
+    <div class="dark-grey">
       <div id="support-text">
-      <h4>WANT TO SUPPORT NHMC? VOLUNTEER OR DONATE</h4>
-      <h3>Your support is greatly appreciated by New Horizons
-         Maritime Center and our benefactors
-      </h3>
+        <h4>WANT TO SUPPORT NHMC? VOLUNTEER OR DONATE</h4>
+        <h3>Your support is greatly appreciated by New Horizons
+          Maritime Center and our benefactors
+        </h3>
       </div>
       <div id="support-button">
         <a href="/support" class="button-style-2">SUPPORT</a>
       </div>
+    </div>
+    <div class="split-wrapper">
+      <div class="split-content">
+        <h4>RECENT POSTS</h4>
+        <div class="black-divider"></div>
+        <!-- WP RECENT POST LOOP HERE  -->
+        <?php dynamic_sidebar('smartslider_area_1'); ?>
+        <div id="blog-button">
+          <a href="/blog">BLOG</a>
+        </div>
+      </div>
+      <img class="half-img" src="<?php echo THEME_IMG_PATH; ?>/boat-building.jpg" alt="Boat Project" />
+    </div>
+    <div class="dark-grey" id="instagram">
+      <h4>INSTAGRAM</h4>
+      <div class="white-border"></div>
+      <!-- INSTAGRAM FEED HERE  -->
+
     </div>
   </div>
 </div>

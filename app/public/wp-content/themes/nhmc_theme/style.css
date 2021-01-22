@@ -193,24 +193,22 @@ body {
   font-size: 16.5px;
 }
 
-#tools-img {
+.half-img {
   width: 50%;
-  background-image: url('./images/boat-building-tools.jpg');
-  background-size: contain;
-  background-position:center center;
+  object-fit: cover;
 }
 
-#service-wrapper {
+.split-wrapper {
   display: flex;
 }
 
-#service-content {
+.split-content {
   background-color: white;
   padding: 2% 3% 4% 3%;
   width: 50%;
 }
 
-#black-divider {
+.black-divider {
   border-bottom: 2px solid black;
   height: 2px;
   width: 110px;
@@ -254,23 +252,81 @@ body {
   padding: 3% 0% 3% 0%;
 }
 
-#support {
+.dark-grey {
   background-color: #252525;
   color: white;
   margin: 0;
   display: flex;
   align-items: center;
 }
-#support h4 {
+.dark-grey h4 {
   margin: 0;
   letter-spacing: 1.8px;
 }
-#support h3 {
+.dark-grey h3 {
   color: #807f7f;
   font-size: 20px;
 }
 
 #support-text {
-  width: 50%;
+  width: 60%;
   padding: 4% 12% 4% 12%;
+}
+
+#instagram {
+  justify-content: center;
+  padding-top: 4%;
+  flex-direction: column;
+}
+
+.rpwwt-widget {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.rpwwt-widget ul {
+  list-style-type: none;
+  margin: 2% 0% 0% 0%;
+  padding: 0;
+}
+
+.rpwwt-widget ul li {
+  padding: 4% 0% 2% 0%;
+  border-bottom: 1px solid lightgrey;
+  margin: 0;
+}
+
+.rpwwt-widget ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+
+}
+.rpwwt-widget ul li a:hover {
+  color: #e6ae48;
+}
+
+.rpwwt-post-excerpt {
+  color: #807f7f;
+}
+
+#blog-button {
+  display: flex;
+  justify-content: center;
+}
+
+#blog-button a {
+  background-color:#e6ae48;
+  border: 2px solid #e6ae48;
+  padding: 10px 30px 10px 30px;
+  margin-top: 4%;
+  text-decoration: none;
+  color: white;
+  text-align: center;
+  font-size: 14px;
+  letter-spacing: 1.8px;
+}
+
+#blog-button a:hover {
+  background-color: white;
+  color: #e6ae48;
 }
