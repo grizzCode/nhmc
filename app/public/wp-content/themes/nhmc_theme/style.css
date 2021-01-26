@@ -329,7 +329,7 @@ body {
 
 .gallery-container {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   padding: 2% 1% 4% 1%;
   flex-wrap: wrap;
 }
