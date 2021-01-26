@@ -326,3 +326,18 @@ body {
   background-color: white;
   color: #e6ae48;
 }
+
+.gallery-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 2% 1% 4% 1%;
+  flex-wrap: wrap;
+}
+
+
+.gallery-container img {
+  width: 400px;
+  height: 300px;
+  margin: 2% 1% 0% 2%;
+  object-fit: cover;
+}

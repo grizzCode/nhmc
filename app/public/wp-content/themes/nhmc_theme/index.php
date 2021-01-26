@@ -141,7 +141,20 @@ if (!defined('THEME_IMG_PATH')) {
     <div class="dark-grey" id="instagram">
       <h4>GALLERY</h4>
       <div class="white-border"></div>
-      <?php echo do_shortcode('[envira-gallery id="31"]') ?>
+      <div class="gallery-container">
+        <img src="<?php echo THEME_IMG_PATH; ?>/gallery/24268739 copy.jpg" alt="Kids handling spinnaker in wind"/>
+        <img src="<?php echo THEME_IMG_PATH; ?>/gallery/62659101 copy.jpg" alt="Kids handling spinnaker in wind"/>
+        <img src="<?php echo THEME_IMG_PATH; ?>/gallery/good for lesson page copy.JPG" alt="Line handling at mast"/>
+        <img src="<?php echo THEME_IMG_PATH; ?>/gallery/HPIM5594 copy.JPG" alt="Captain and crew learning in cockpit"/>
+        <img src="<?php echo THEME_IMG_PATH; ?>/gallery/HPIM5597 copy.JPG" alt="Girl in PFD looking over lake"/>
+        <img src="<?php echo THEME_IMG_PATH; ?>/gallery/IMG_1943.jpg" alt="Wooden boats on display"/>
+        <img src="<?php echo THEME_IMG_PATH; ?>/gallery/IMG_2017.jpg" alt="Hull shape interactive experiment"/>
+        <img src="<?php echo THEME_IMG_PATH; ?>/gallery/IMG_2039.jpg" alt="Boat building presentation"/>
+        <img src="<?php echo THEME_IMG_PATH; ?>/gallery/IMG_2238.jpg" alt="Teenage boys sailing Utah lake"/>
+        <img src="<?php echo THEME_IMG_PATH; ?>/gallery/IMG_2278.jpg" alt="Kids sailing vessel on Utah lake"/>
+        <img src="<?php echo THEME_IMG_PATH; ?>/gallery/IMG_2282.jpg" alt="Kids sailing vessel on Utah lake"/>
+        <img src="<?php echo THEME_IMG_PATH; ?>/gallery/IMG_5076.jpg" alt="Outdoor classroom sailing presentation"/>
+      </div>
 
     </div>
   </div>
