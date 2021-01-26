@@ -166,10 +166,6 @@ body {
   padding: 3% 20% 5% 20%; 
 }
 
-#mission p {
-  font-family: 'Roboto Slab', serif;
-}
-
 .white-border {
   border-bottom: 2px solid white;
   height: 2px;
@@ -318,7 +314,7 @@ body {
   background-color:#e6ae48;
   border: 2px solid #e6ae48;
   padding: 10px 30px 10px 30px;
-  margin-top: 4%;
+  margin-top: 6%;
   text-decoration: none;
   color: white;
   text-align: center;

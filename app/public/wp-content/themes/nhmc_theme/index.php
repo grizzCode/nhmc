@@ -139,9 +139,9 @@ if (!defined('THEME_IMG_PATH')) {
       <img class="half-img" src="<?php echo THEME_IMG_PATH; ?>/boat-building.jpg" alt="Boat Project" />
     </div>
     <div class="dark-grey" id="instagram">
-      <h4>INSTAGRAM</h4>
+      <h4>GALLERY</h4>
       <div class="white-border"></div>
-      <!-- INSTAGRAM FEED HERE  -->
+      <?php echo do_shortcode('[envira-gallery id="31"]') ?>
 
     </div>
   </div>

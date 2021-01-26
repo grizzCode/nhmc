@@ -13,3 +13,4 @@
 [20-Jan-2021 23:10:35 UTC] PHP   3. WP_Hook->do_action() C:\Users\cbuxton\Local Sites\nhmc\app\public\wp-includes\plugin.php:484
 [20-Jan-2021 23:10:35 UTC] PHP   4. WP_Hook->apply_filters() C:\Users\cbuxton\Local Sites\nhmc\app\public\wp-includes\class-wp-hook.php:311
 [20-Jan-2021 23:10:35 UTC] PHP   5. WPLPAdmin->getCountPosts() C:\Users\cbuxton\Local Sites\nhmc\app\public\wp-includes\class-wp-hook.php:287
+[26-Jan-2021 18:31:11 UTC] PHP Parse error:  syntax error, unexpected 'id' (T_STRING), expecting ']' in /Users/ullr/Local Sites/nhmc/app/public/wp-content/themes/nhmc_theme/index.php on line 144
