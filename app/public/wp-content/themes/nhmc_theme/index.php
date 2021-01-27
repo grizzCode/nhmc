@@ -1,4 +1,8 @@
-<?php get_header(); ?>
+<?php
+get_header();
+?>
+
+<!-- PHP FUNCTION TO GET IMAGE PATH TO THEME FOLDERS -->
 <?php
 if (!defined('THEME_IMG_PATH')) {
   define('THEME_IMG_PATH', get_stylesheet_directory_uri() . '/images');
@@ -111,9 +115,8 @@ if (!defined('THEME_IMG_PATH')) {
       </div>
     </div>
     <div id="quotes">
-      <?php
-      echo do_shortcode('[smartslider3 slider="3"]');
-      ?>
+      <!-- QUOTE SLIDER PLUGIN -->
+      <?php echo do_shortcode('[smartslider3 slider="3"]'); ?>
     </div>
     <div class="dark-grey">
       <div id="support-text">
@@ -130,7 +133,7 @@ if (!defined('THEME_IMG_PATH')) {
       <div class="split-content">
         <h4>RECENT POSTS</h4>
         <div class="black-divider"></div>
-        <!-- WP RECENT POST LOOP HERE  -->
+        <!-- WP RECENT POST PLUGIN  -->
         <?php dynamic_sidebar('smartslider_area_1'); ?>
         <div id="blog-button">
           <a href="/blog">BLOG</a>
@@ -142,23 +145,61 @@ if (!defined('THEME_IMG_PATH')) {
       <h4>GALLERY</h4>
       <div class="white-border"></div>
       <div class="gallery-container">
-        <img src="<?php echo THEME_IMG_PATH; ?>/gallery/24268739 copy.jpg" alt="Kids handling spinnaker in wind"/>
-        <img src="<?php echo THEME_IMG_PATH; ?>/gallery/62659101 copy.jpg" alt="Kids handling spinnaker in wind"/>
-        <img src="<?php echo THEME_IMG_PATH; ?>/gallery/good for lesson page copy.JPG" alt="Line handling at mast"/>
-        <img src="<?php echo THEME_IMG_PATH; ?>/gallery/HPIM5594 copy.JPG" alt="Captain and crew learning in cockpit"/>
-        <img src="<?php echo THEME_IMG_PATH; ?>/gallery/HPIM5597 copy.JPG" alt="Girl in PFD looking over lake"/>
-        <img src="<?php echo THEME_IMG_PATH; ?>/gallery/IMG_1943.jpg" alt="Wooden boats on display"/>
-        <img src="<?php echo THEME_IMG_PATH; ?>/gallery/IMG_2017.jpg" alt="Hull shape interactive experiment"/>
-        <img src="<?php echo THEME_IMG_PATH; ?>/gallery/IMG_2039.jpg" alt="Boat building presentation"/>
-        <img src="<?php echo THEME_IMG_PATH; ?>/gallery/IMG_2238.jpg" alt="Teenage boys sailing Utah lake"/>
-        <img src="<?php echo THEME_IMG_PATH; ?>/gallery/IMG_2278.jpg" alt="Kids sailing vessel on Utah lake"/>
-        <img src="<?php echo THEME_IMG_PATH; ?>/gallery/IMG_2282.jpg" alt="Kids sailing vessel on Utah lake"/>
-        <img src="<?php echo THEME_IMG_PATH; ?>/gallery/IMG_5076.jpg" alt="Outdoor classroom sailing presentation"/>
+        <img src="<?php echo THEME_IMG_PATH; ?>/gallery/24268739 copy.jpg" alt="Kids handling spinnaker in wind" />
+        <img src="<?php echo THEME_IMG_PATH; ?>/gallery/62659101 copy.jpg" alt="Kids handling spinnaker in wind" />
+        <img src="<?php echo THEME_IMG_PATH; ?>/gallery/good for lesson page copy.JPG" alt="Line handling at mast" />
+        <img src="<?php echo THEME_IMG_PATH; ?>/gallery/HPIM5594 copy.JPG" alt="Captain and crew learning in cockpit" />
+        <img src="<?php echo THEME_IMG_PATH; ?>/gallery/HPIM5597 copy.JPG" alt="Girl in PFD looking over lake" />
+        <img src="<?php echo THEME_IMG_PATH; ?>/gallery/IMG_1943.jpg" alt="Wooden boats on display" />
+        <img src="<?php echo THEME_IMG_PATH; ?>/gallery/IMG_2017.jpg" alt="Hull shape interactive experiment" />
+        <img src="<?php echo THEME_IMG_PATH; ?>/gallery/IMG_2039.jpg" alt="Boat building presentation" />
+        <img src="<?php echo THEME_IMG_PATH; ?>/gallery/IMG_2238.jpg" alt="Teenage boys sailing Utah lake" />
+        <img src="<?php echo THEME_IMG_PATH; ?>/gallery/IMG_2278.jpg" alt="Kids sailing vessel on Utah lake" />
+        <img src="<?php echo THEME_IMG_PATH; ?>/gallery/IMG_2282.jpg" alt="Kids sailing vessel on Utah lake" />
+        <img src="<?php echo THEME_IMG_PATH; ?>/gallery/IMG_5076.jpg" alt="Outdoor classroom sailing presentation" />
       </div>
+    </div>
+    <div class="form-container">
+      <form action="mail.php" method="POST" name="contact-form">
+        <p>Name</p> <input type="text" id="name">
+        <p>Email</p> <input type="text" id="email">
+        <p>Message</p><textarea id="message" rows="6" cols="25"></textarea><br />
+        <input type="button" value="Send" id="submit">
+      </form>
 
     </div>
   </div>
 </div>
 
 
-<?php get_footer(); ?>
+<?php get_footer(); 
+include('mail.php');
+?>
+<script>
+  var $j = jQuery.noConflict();
+  $j("#submit").click(function(e) {
+
+    var recipient = "charles@grizzcode.com"
+
+    $j.post("./mail.php", {
+      
+      name: $j("#name").val(),
+      email: $j("#email").val(),
+      message: $j("#message").val(),
+      recipient: recipient
+
+
+    }, function(data, textStatus) {
+        console.log(data)
+      if (data == 1) {
+        alert("Mail not sent");
+        e.preventDefault();
+      } else {
+        alert("Mail sent");
+        e.preventDefault();
+      }
+
+    });
+
+  });
+</script>
