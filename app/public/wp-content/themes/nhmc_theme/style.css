@@ -63,10 +63,6 @@ body {
   border-color:#e6ae48!important;
 }
 
-.content-wrapper {
-  
-
-}
 
 #divider {
   height: 60px;
@@ -372,7 +368,7 @@ body {
 .wpcf7 textarea
 {
     background-color: #fff;
-    border: 1.5px solid rgb(61, 61, 61);
+    border: 1.5px solid rgb(77, 77, 77);
     border-radius: 5px;
     color: #000;
     width: 100%;
@@ -442,3 +438,39 @@ body {
   position: relative;
   top: 40%;
 }
+
+#footer-container {
+  display: flex;
+  background-color: #252525;
+  color: white;
+}
+
+#footer-map {
+  margin: 4% 6% 4% 6%;
+}
+
+#footer-text {
+  margin: 4% 6% 4% 6%;
+}
+
+#social-header {
+  display: block;
+  margin-top: 110px;
+}
+
+#social-wrapper {
+  display: flex;
+
+}
+
+.social-icon {
+  color: white;
+  font-size: 48px;
+  margin-right: 60px;
+  transition: all .2s ease-in-out;
+}
+
+.social-icon:hover {
+  transform: scale(1.2);
+}
+

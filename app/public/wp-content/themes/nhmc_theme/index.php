@@ -1,12 +1,11 @@
-<?php
-get_header();
-?>
+<?php get_header();?>
 
 <!-- PHP FUNCTION TO GET IMAGE PATH TO THEME FOLDERS -->
 <?php
 if (!defined('THEME_IMG_PATH')) {
   define('THEME_IMG_PATH', get_stylesheet_directory_uri() . '/images');
-} ?>
+} 
+?>
 
 <div id="main">
   <div id="slider">
@@ -169,6 +168,7 @@ if (!defined('THEME_IMG_PATH')) {
         <h3>We’d love to hear from you!</h3>
       </div>
       <div class="form-wrapper">
+        <!-- CONTACT FORM 7 PLUGIN  -->
         <?php echo do_shortcode('[contact-form-7 id="46" title="Contact Us" html_class="contact-form"]'); ?>
         <div id="success-message">
           <h4>Message Sent! We will respond to your inquiry shortly.</h4>
