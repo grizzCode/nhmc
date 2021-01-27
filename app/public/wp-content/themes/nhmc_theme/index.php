@@ -160,46 +160,19 @@ if (!defined('THEME_IMG_PATH')) {
       </div>
     </div>
     <div class="form-container">
-      <form action="mail.php" method="POST" name="contact-form">
-        <p>Name</p> <input type="text" id="name">
-        <p>Email</p> <input type="text" id="email">
-        <p>Message</p><textarea id="message" rows="6" cols="25"></textarea><br />
-        <input type="button" value="Send" id="submit">
-      </form>
-
+      <div id="keep-in-touch">
+      <i class="fas fa-anchor"></i>
+      <h3>KEEP IN TOUCH</h3>
+      <div class="black-divider"></div>
+      </div>
+      <div class="form-header">
+        <h3>We’d love to hear from you!</h3>
+      </div>
+      <div class="form-wrapper">
+        <?php echo do_shortcode('[contact-form-7 id="46" title="Contact Us" html_class="contact-form"]'); ?>
+      </div>
     </div>
   </div>
 </div>
 
-
-<?php get_footer(); 
-include('mail.php');
-?>
-<script>
-  var $j = jQuery.noConflict();
-  $j("#submit").click(function(e) {
-
-    var recipient = "charles@grizzcode.com"
-
-    $j.post("./mail.php", {
-      
-      name: $j("#name").val(),
-      email: $j("#email").val(),
-      message: $j("#message").val(),
-      recipient: recipient
-
-
-    }, function(data, textStatus) {
-        console.log(data)
-      if (data == 1) {
-        alert("Mail not sent");
-        e.preventDefault();
-      } else {
-        alert("Mail sent");
-        e.preventDefault();
-      }
-
-    });
-
-  });
-</script>
+<?php get_footer(); ?>
