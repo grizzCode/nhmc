@@ -371,5 +371,19 @@ body {
 }
 
 #keep-in-touch i {
-  font-size: 50px;
+  font-size: 40px;
+}
+
+#success-message {
+  height: 80px;
+  width: 65%;
+  margin: auto;
+  background-color: rgb(115, 235, 115);
+  text-align: center;
+  display: none;
+}
+
+#success-message h4 {
+  position: relative;
+  top: 40%;
 }

@@ -170,6 +170,9 @@ if (!defined('THEME_IMG_PATH')) {
       </div>
       <div class="form-wrapper">
         <?php echo do_shortcode('[contact-form-7 id="46" title="Contact Us" html_class="contact-form"]'); ?>
+        <div id="success-message">
+          <h4>Message Sent! We will respond to your inquiry shortly.</h4>
+        </div>
       </div>
     </div>
   </div>
