@@ -347,9 +347,64 @@ body {
   justify-content: center;
 }
 
-.contact-form {
-  color: red;
+.form-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
+
+.contact-form {
+  color: rgb(61, 61, 61);
+  font-size: 16px;
+}
+.wpcf7 {
+  display: flex;
+  justify-content: center;
+}
+
+.wpcf7-form {
+  width: 600px;
+  text-align: center;
+}
+
+.wpcf7 input[type="text"],
+.wpcf7 input[type="email"],
+.wpcf7 textarea
+{
+    background-color: #fff;
+    border: 1.5px solid rgb(61, 61, 61);
+    border-radius: 5px;
+    color: #000;
+    width: 100%;
+    margin-top: 12px;
+}
+
+.wpcf7 input[type="text"],
+.wpcf7 input[type="email"] {
+  height: 38px;
+}
+
+.wpcf7 p {
+  margin-top: 6%;
+}
+
+.wpcf7 input[type="submit"] {
+  background-color:#e6ae48;
+  border: 2px solid #e6ae48;
+  padding: 10px 30px 10px 30px;
+  text-decoration: none;
+  color: white;
+  text-align: center;
+  font-size: 14px;
+  letter-spacing: 1.8px;
+}
+
+.wpcf7 input[type="submit"]:hover {
+  background-color: white;
+  color: #e6ae48;
+  cursor: pointer;
+}
+
 .wpcf7-response-output {
   display: none !important;
 }
@@ -367,7 +422,7 @@ body {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  align-items: center
+  align-items: center;
 }
 
 #keep-in-touch i {
