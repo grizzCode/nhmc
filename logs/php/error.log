@@ -30,3 +30,270 @@
 [27-Jan-2021 00:01:59 UTC] PHP Parse error:  syntax error, unexpected '$name' (T_VARIABLE) in /Users/ullr/Local Sites/nhmc/app/public/wp-content/themes/nhmc_theme/mail.php on line 3
 [27-Jan-2021 00:02:14 UTC] PHP Parse error:  syntax error, unexpected ';' in /Users/ullr/Local Sites/nhmc/app/public/wp-content/themes/nhmc_theme/mail.php on line 12
 [27-Jan-2021 00:04:45 UTC] PHP Parse error:  syntax error, unexpected ';' in /Users/ullr/Local Sites/nhmc/app/public/wp-content/themes/nhmc_theme/mail.php on line 12
+[28-Jan-2021 17:04:18 UTC] PHP Parse error:  syntax error, unexpected end of file in /Users/ullr/Local Sites/nhmc/app/public/wp-content/themes/nhmc_theme/page.php on line 11
+[28-Jan-2021 17:47:17 UTC] PHP Warning:  Use of undefined constant ‘bod - assumed '‘bod' (this will throw an Error in a future version of PHP) in /Users/ullr/Local Sites/nhmc/app/public/wp-content/themes/nhmc_theme/functions.php on line 5
+[28-Jan-2021 17:47:17 UTC] PHP Stack trace:
+[28-Jan-2021 17:47:17 UTC] PHP   1. {main}() /Users/ullr/Local Sites/nhmc/app/public/index.php:0
+[28-Jan-2021 17:47:17 UTC] PHP   2. require() /Users/ullr/Local Sites/nhmc/app/public/index.php:17
+[28-Jan-2021 17:47:17 UTC] PHP   3. require_once() /Users/ullr/Local Sites/nhmc/app/public/wp-blog-header.php:19
+[28-Jan-2021 17:47:17 UTC] PHP   4. include() /Users/ullr/Local Sites/nhmc/app/public/wp-includes/template-loader.php:106
+[28-Jan-2021 17:47:17 UTC] PHP   5. get_header() /Users/ullr/Local Sites/nhmc/app/public/wp-content/themes/nhmc_theme/page-template-bod.php:3
+[28-Jan-2021 17:47:17 UTC] PHP   6. locate_template() /Users/ullr/Local Sites/nhmc/app/public/wp-includes/general-template.php:48
+[28-Jan-2021 17:47:17 UTC] PHP   7. load_template() /Users/ullr/Local Sites/nhmc/app/public/wp-includes/template.php:676
+[28-Jan-2021 17:47:17 UTC] PHP   8. require_once() /Users/ullr/Local Sites/nhmc/app/public/wp-includes/template.php:730
+[28-Jan-2021 17:47:17 UTC] PHP   9. wp_head() /Users/ullr/Local Sites/nhmc/app/public/wp-content/themes/nhmc_theme/header.php:4
+[28-Jan-2021 17:47:17 UTC] PHP  10. do_action() /Users/ullr/Local Sites/nhmc/app/public/wp-includes/general-template.php:3005
+[28-Jan-2021 17:47:17 UTC] PHP  11. WP_Hook->do_action() /Users/ullr/Local Sites/nhmc/app/public/wp-includes/plugin.php:484
+[28-Jan-2021 17:47:17 UTC] PHP  12. WP_Hook->apply_filters() /Users/ullr/Local Sites/nhmc/app/public/wp-includes/class-wp-hook.php:311
+[28-Jan-2021 17:47:17 UTC] PHP  13. wp_enqueue_scripts() /Users/ullr/Local Sites/nhmc/app/public/wp-includes/class-wp-hook.php:287
+[28-Jan-2021 17:47:17 UTC] PHP  14. do_action() /Users/ullr/Local Sites/nhmc/app/public/wp-includes/script-loader.php:2004
+[28-Jan-2021 17:47:17 UTC] PHP  15. WP_Hook->do_action() /Users/ullr/Local Sites/nhmc/app/public/wp-includes/plugin.php:484
+[28-Jan-2021 17:47:17 UTC] PHP  16. WP_Hook->apply_filters() /Users/ullr/Local Sites/nhmc/app/public/wp-includes/class-wp-hook.php:311
+[28-Jan-2021 17:47:17 UTC] PHP  17. pull_theme_files() /Users/ullr/Local Sites/nhmc/app/public/wp-includes/class-wp-hook.php:287
+[28-Jan-2021 17:47:17 UTC] PHP Warning:  Use of undefined constant styles’ - assumed 'styles’' (this will throw an Error in a future version of PHP) in /Users/ullr/Local Sites/nhmc/app/public/wp-content/themes/nhmc_theme/functions.php on line 5
+[28-Jan-2021 17:47:17 UTC] PHP Stack trace:
+[28-Jan-2021 17:47:17 UTC] PHP   1. {main}() /Users/ullr/Local Sites/nhmc/app/public/index.php:0
+[28-Jan-2021 17:47:17 UTC] PHP   2. require() /Users/ullr/Local Sites/nhmc/app/public/index.php:17
+[28-Jan-2021 17:47:17 UTC] PHP   3. require_once() /Users/ullr/Local Sites/nhmc/app/public/wp-blog-header.php:19
+[28-Jan-2021 17:47:17 UTC] PHP   4. include() /Users/ullr/Local Sites/nhmc/app/public/wp-includes/template-loader.php:106
+[28-Jan-2021 17:47:17 UTC] PHP   5. get_header() /Users/ullr/Local Sites/nhmc/app/public/wp-content/themes/nhmc_theme/page-template-bod.php:3
+[28-Jan-2021 17:47:17 UTC] PHP   6. locate_template() /Users/ullr/Local Sites/nhmc/app/public/wp-includes/general-template.php:48
+[28-Jan-2021 17:47:17 UTC] PHP   7. load_template() /Users/ullr/Local Sites/nhmc/app/public/wp-includes/template.php:676
+[28-Jan-2021 17:47:17 UTC] PHP   8. require_once() /Users/ullr/Local Sites/nhmc/app/public/wp-includes/template.php:730
+[28-Jan-2021 17:47:17 UTC] PHP   9. wp_head() /Users/ullr/Local Sites/nhmc/app/public/wp-content/themes/nhmc_theme/header.php:4
+[28-Jan-2021 17:47:17 UTC] PHP  10. do_action() /Users/ullr/Local Sites/nhmc/app/public/wp-includes/general-template.php:3005
+[28-Jan-2021 17:47:17 UTC] PHP  11. WP_Hook->do_action() /Users/ullr/Local Sites/nhmc/app/public/wp-includes/plugin.php:484
+[28-Jan-2021 17:47:17 UTC] PHP  12. WP_Hook->apply_filters() /Users/ullr/Local Sites/nhmc/app/public/wp-includes/class-wp-hook.php:311
+[28-Jan-2021 17:47:17 UTC] PHP  13. wp_enqueue_scripts() /Users/ullr/Local Sites/nhmc/app/public/wp-includes/class-wp-hook.php:287
+[28-Jan-2021 17:47:17 UTC] PHP  14. do_action() /Users/ullr/Local Sites/nhmc/app/public/wp-includes/script-loader.php:2004
+[28-Jan-2021 17:47:17 UTC] PHP  15. WP_Hook->do_action() /Users/ullr/Local Sites/nhmc/app/public/wp-includes/plugin.php:484
+[28-Jan-2021 17:47:17 UTC] PHP  16. WP_Hook->apply_filters() /Users/ullr/Local Sites/nhmc/app/public/wp-includes/class-wp-hook.php:311
+[28-Jan-2021 17:47:17 UTC] PHP  17. pull_theme_files() /Users/ullr/Local Sites/nhmc/app/public/wp-includes/class-wp-hook.php:287
+[28-Jan-2021 17:47:17 UTC] PHP Warning:  A non-numeric value encountered in /Users/ullr/Local Sites/nhmc/app/public/wp-content/themes/nhmc_theme/functions.php on line 5
+[28-Jan-2021 17:47:17 UTC] PHP Stack trace:
+[28-Jan-2021 17:47:17 UTC] PHP   1. {main}() /Users/ullr/Local Sites/nhmc/app/public/index.php:0
+[28-Jan-2021 17:47:17 UTC] PHP   2. require() /Users/ullr/Local Sites/nhmc/app/public/index.php:17
+[28-Jan-2021 17:47:17 UTC] PHP   3. require_once() /Users/ullr/Local Sites/nhmc/app/public/wp-blog-header.php:19
+[28-Jan-2021 17:47:17 UTC] PHP   4. include() /Users/ullr/Local Sites/nhmc/app/public/wp-includes/template-loader.php:106
+[28-Jan-2021 17:47:17 UTC] PHP   5. get_header() /Users/ullr/Local Sites/nhmc/app/public/wp-content/themes/nhmc_theme/page-template-bod.php:3
+[28-Jan-2021 17:47:17 UTC] PHP   6. locate_template() /Users/ullr/Local Sites/nhmc/app/public/wp-includes/general-template.php:48
+[28-Jan-2021 17:47:17 UTC] PHP   7. load_template() /Users/ullr/Local Sites/nhmc/app/public/wp-includes/template.php:676
+[28-Jan-2021 17:47:17 UTC] PHP   8. require_once() /Users/ullr/Local Sites/nhmc/app/public/wp-includes/template.php:730
+[28-Jan-2021 17:47:17 UTC] PHP   9. wp_head() /Users/ullr/Local Sites/nhmc/app/public/wp-content/themes/nhmc_theme/header.php:4
+[28-Jan-2021 17:47:17 UTC] PHP  10. do_action() /Users/ullr/Local Sites/nhmc/app/public/wp-includes/general-template.php:3005
+[28-Jan-2021 17:47:17 UTC] PHP  11. WP_Hook->do_action() /Users/ullr/Local Sites/nhmc/app/public/wp-includes/plugin.php:484
+[28-Jan-2021 17:47:17 UTC] PHP  12. WP_Hook->apply_filters() /Users/ullr/Local Sites/nhmc/app/public/wp-includes/class-wp-hook.php:311
+[28-Jan-2021 17:47:17 UTC] PHP  13. wp_enqueue_scripts() /Users/ullr/Local Sites/nhmc/app/public/wp-includes/class-wp-hook.php:287
+[28-Jan-2021 17:47:17 UTC] PHP  14. do_action() /Users/ullr/Local Sites/nhmc/app/public/wp-includes/script-loader.php:2004
+[28-Jan-2021 17:47:17 UTC] PHP  15. WP_Hook->do_action() /Users/ullr/Local Sites/nhmc/app/public/wp-includes/plugin.php:484
+[28-Jan-2021 17:47:17 UTC] PHP  16. WP_Hook->apply_filters() /Users/ullr/Local Sites/nhmc/app/public/wp-includes/class-wp-hook.php:311
+[28-Jan-2021 17:47:17 UTC] PHP  17. pull_theme_files() /Users/ullr/Local Sites/nhmc/app/public/wp-includes/class-wp-hook.php:287
+[28-Jan-2021 17:47:17 UTC] PHP Warning:  A non-numeric value encountered in /Users/ullr/Local Sites/nhmc/app/public/wp-content/themes/nhmc_theme/functions.php on line 5
+[28-Jan-2021 17:47:17 UTC] PHP Stack trace:
+[28-Jan-2021 17:47:17 UTC] PHP   1. {main}() /Users/ullr/Local Sites/nhmc/app/public/index.php:0
+[28-Jan-2021 17:47:17 UTC] PHP   2. require() /Users/ullr/Local Sites/nhmc/app/public/index.php:17
+[28-Jan-2021 17:47:17 UTC] PHP   3. require_once() /Users/ullr/Local Sites/nhmc/app/public/wp-blog-header.php:19
+[28-Jan-2021 17:47:17 UTC] PHP   4. include() /Users/ullr/Local Sites/nhmc/app/public/wp-includes/template-loader.php:106
+[28-Jan-2021 17:47:17 UTC] PHP   5. get_header() /Users/ullr/Local Sites/nhmc/app/public/wp-content/themes/nhmc_theme/page-template-bod.php:3
+[28-Jan-2021 17:47:17 UTC] PHP   6. locate_template() /Users/ullr/Local Sites/nhmc/app/public/wp-includes/general-template.php:48
+[28-Jan-2021 17:47:17 UTC] PHP   7. load_template() /Users/ullr/Local Sites/nhmc/app/public/wp-includes/template.php:676
+[28-Jan-2021 17:47:17 UTC] PHP   8. require_once() /Users/ullr/Local Sites/nhmc/app/public/wp-includes/template.php:730
+[28-Jan-2021 17:47:17 UTC] PHP   9. wp_head() /Users/ullr/Local Sites/nhmc/app/public/wp-content/themes/nhmc_theme/header.php:4
+[28-Jan-2021 17:47:17 UTC] PHP  10. do_action() /Users/ullr/Local Sites/nhmc/app/public/wp-includes/general-template.php:3005
+[28-Jan-2021 17:47:17 UTC] PHP  11. WP_Hook->do_action() /Users/ullr/Local Sites/nhmc/app/public/wp-includes/plugin.php:484
+[28-Jan-2021 17:47:17 UTC] PHP  12. WP_Hook->apply_filters() /Users/ullr/Local Sites/nhmc/app/public/wp-includes/class-wp-hook.php:311
+[28-Jan-2021 17:47:17 UTC] PHP  13. wp_enqueue_scripts() /Users/ullr/Local Sites/nhmc/app/public/wp-includes/class-wp-hook.php:287
+[28-Jan-2021 17:47:17 UTC] PHP  14. do_action() /Users/ullr/Local Sites/nhmc/app/public/wp-includes/script-loader.php:2004
+[28-Jan-2021 17:47:17 UTC] PHP  15. WP_Hook->do_action() /Users/ullr/Local Sites/nhmc/app/public/wp-includes/plugin.php:484
+[28-Jan-2021 17:47:17 UTC] PHP  16. WP_Hook->apply_filters() /Users/ullr/Local Sites/nhmc/app/public/wp-includes/class-wp-hook.php:311
+[28-Jan-2021 17:47:17 UTC] PHP  17. pull_theme_files() /Users/ullr/Local Sites/nhmc/app/public/wp-includes/class-wp-hook.php:287
+[28-Jan-2021 17:47:17 UTC] PHP Warning:  Use of undefined constant ’ - assumed '’' (this will throw an Error in a future version of PHP) in /Users/ullr/Local Sites/nhmc/app/public/wp-content/themes/nhmc_theme/functions.php on line 5
+[28-Jan-2021 17:47:17 UTC] PHP Stack trace:
+[28-Jan-2021 17:47:17 UTC] PHP   1. {main}() /Users/ullr/Local Sites/nhmc/app/public/index.php:0
+[28-Jan-2021 17:47:17 UTC] PHP   2. require() /Users/ullr/Local Sites/nhmc/app/public/index.php:17
+[28-Jan-2021 17:47:17 UTC] PHP   3. require_once() /Users/ullr/Local Sites/nhmc/app/public/wp-blog-header.php:19
+[28-Jan-2021 17:47:17 UTC] PHP   4. include() /Users/ullr/Local Sites/nhmc/app/public/wp-includes/template-loader.php:106
+[28-Jan-2021 17:47:17 UTC] PHP   5. get_header() /Users/ullr/Local Sites/nhmc/app/public/wp-content/themes/nhmc_theme/page-template-bod.php:3
+[28-Jan-2021 17:47:17 UTC] PHP   6. locate_template() /Users/ullr/Local Sites/nhmc/app/public/wp-includes/general-template.php:48
+[28-Jan-2021 17:47:17 UTC] PHP   7. load_template() /Users/ullr/Local Sites/nhmc/app/public/wp-includes/template.php:676
+[28-Jan-2021 17:47:17 UTC] PHP   8. require_once() /Users/ullr/Local Sites/nhmc/app/public/wp-includes/template.php:730
+[28-Jan-2021 17:47:17 UTC] PHP   9. wp_head() /Users/ullr/Local Sites/nhmc/app/public/wp-content/themes/nhmc_theme/header.php:4
+[28-Jan-2021 17:47:17 UTC] PHP  10. do_action() /Users/ullr/Local Sites/nhmc/app/public/wp-includes/general-template.php:3005
+[28-Jan-2021 17:47:17 UTC] PHP  11. WP_Hook->do_action() /Users/ullr/Local Sites/nhmc/app/public/wp-includes/plugin.php:484
+[28-Jan-2021 17:47:17 UTC] PHP  12. WP_Hook->apply_filters() /Users/ullr/Local Sites/nhmc/app/public/wp-includes/class-wp-hook.php:311
+[28-Jan-2021 17:47:17 UTC] PHP  13. wp_enqueue_scripts() /Users/ullr/Local Sites/nhmc/app/public/wp-includes/class-wp-hook.php:287
+[28-Jan-2021 17:47:17 UTC] PHP  14. do_action() /Users/ullr/Local Sites/nhmc/app/public/wp-includes/script-loader.php:2004
+[28-Jan-2021 17:47:17 UTC] PHP  15. WP_Hook->do_action() /Users/ullr/Local Sites/nhmc/app/public/wp-includes/plugin.php:484
+[28-Jan-2021 17:47:17 UTC] PHP  16. WP_Hook->apply_filters() /Users/ullr/Local Sites/nhmc/app/public/wp-includes/class-wp-hook.php:311
+[28-Jan-2021 17:47:17 UTC] PHP  17. pull_theme_files() /Users/ullr/Local Sites/nhmc/app/public/wp-includes/class-wp-hook.php:287
+[28-Jan-2021 17:47:17 UTC] PHP Warning:  Use of undefined constant bod - assumed 'bod' (this will throw an Error in a future version of PHP) in /Users/ullr/Local Sites/nhmc/app/public/wp-content/themes/nhmc_theme/functions.php on line 5
+[28-Jan-2021 17:47:17 UTC] PHP Stack trace:
+[28-Jan-2021 17:47:17 UTC] PHP   1. {main}() /Users/ullr/Local Sites/nhmc/app/public/index.php:0
+[28-Jan-2021 17:47:17 UTC] PHP   2. require() /Users/ullr/Local Sites/nhmc/app/public/index.php:17
+[28-Jan-2021 17:47:17 UTC] PHP   3. require_once() /Users/ullr/Local Sites/nhmc/app/public/wp-blog-header.php:19
+[28-Jan-2021 17:47:17 UTC] PHP   4. include() /Users/ullr/Local Sites/nhmc/app/public/wp-includes/template-loader.php:106
+[28-Jan-2021 17:47:17 UTC] PHP   5. get_header() /Users/ullr/Local Sites/nhmc/app/public/wp-content/themes/nhmc_theme/page-template-bod.php:3
+[28-Jan-2021 17:47:17 UTC] PHP   6. locate_template() /Users/ullr/Local Sites/nhmc/app/public/wp-includes/general-template.php:48
+[28-Jan-2021 17:47:17 UTC] PHP   7. load_template() /Users/ullr/Local Sites/nhmc/app/public/wp-includes/template.php:676
+[28-Jan-2021 17:47:17 UTC] PHP   8. require_once() /Users/ullr/Local Sites/nhmc/app/public/wp-includes/template.php:730
+[28-Jan-2021 17:47:17 UTC] PHP   9. wp_head() /Users/ullr/Local Sites/nhmc/app/public/wp-content/themes/nhmc_theme/header.php:4
+[28-Jan-2021 17:47:17 UTC] PHP  10. do_action() /Users/ullr/Local Sites/nhmc/app/public/wp-includes/general-template.php:3005
+[28-Jan-2021 17:47:17 UTC] PHP  11. WP_Hook->do_action() /Users/ullr/Local Sites/nhmc/app/public/wp-includes/plugin.php:484
+[28-Jan-2021 17:47:17 UTC] PHP  12. WP_Hook->apply_filters() /Users/ullr/Local Sites/nhmc/app/public/wp-includes/class-wp-hook.php:311
+[28-Jan-2021 17:47:17 UTC] PHP  13. wp_enqueue_scripts() /Users/ullr/Local Sites/nhmc/app/public/wp-includes/class-wp-hook.php:287
+[28-Jan-2021 17:47:17 UTC] PHP  14. do_action() /Users/ullr/Local Sites/nhmc/app/public/wp-includes/script-loader.php:2004
+[28-Jan-2021 17:47:17 UTC] PHP  15. WP_Hook->do_action() /Users/ullr/Local Sites/nhmc/app/public/wp-includes/plugin.php:484
+[28-Jan-2021 17:47:17 UTC] PHP  16. WP_Hook->apply_filters() /Users/ullr/Local Sites/nhmc/app/public/wp-includes/class-wp-hook.php:311
+[28-Jan-2021 17:47:17 UTC] PHP  17. pull_theme_files() /Users/ullr/Local Sites/nhmc/app/public/wp-includes/class-wp-hook.php:287
+[28-Jan-2021 17:47:17 UTC] PHP Warning:  A non-numeric value encountered in /Users/ullr/Local Sites/nhmc/app/public/wp-content/themes/nhmc_theme/functions.php on line 5
+[28-Jan-2021 17:47:17 UTC] PHP Stack trace:
+[28-Jan-2021 17:47:17 UTC] PHP   1. {main}() /Users/ullr/Local Sites/nhmc/app/public/index.php:0
+[28-Jan-2021 17:47:17 UTC] PHP   2. require() /Users/ullr/Local Sites/nhmc/app/public/index.php:17
+[28-Jan-2021 17:47:17 UTC] PHP   3. require_once() /Users/ullr/Local Sites/nhmc/app/public/wp-blog-header.php:19
+[28-Jan-2021 17:47:17 UTC] PHP   4. include() /Users/ullr/Local Sites/nhmc/app/public/wp-includes/template-loader.php:106
+[28-Jan-2021 17:47:17 UTC] PHP   5. get_header() /Users/ullr/Local Sites/nhmc/app/public/wp-content/themes/nhmc_theme/page-template-bod.php:3
+[28-Jan-2021 17:47:17 UTC] PHP   6. locate_template() /Users/ullr/Local Sites/nhmc/app/public/wp-includes/general-template.php:48
+[28-Jan-2021 17:47:17 UTC] PHP   7. load_template() /Users/ullr/Local Sites/nhmc/app/public/wp-includes/template.php:676
+[28-Jan-2021 17:47:17 UTC] PHP   8. require_once() /Users/ullr/Local Sites/nhmc/app/public/wp-includes/template.php:730
+[28-Jan-2021 17:47:17 UTC] PHP   9. wp_head() /Users/ullr/Local Sites/nhmc/app/public/wp-content/themes/nhmc_theme/header.php:4
+[28-Jan-2021 17:47:17 UTC] PHP  10. do_action() /Users/ullr/Local Sites/nhmc/app/public/wp-includes/general-template.php:3005
+[28-Jan-2021 17:47:17 UTC] PHP  11. WP_Hook->do_action() /Users/ullr/Local Sites/nhmc/app/public/wp-includes/plugin.php:484
+[28-Jan-2021 17:47:17 UTC] PHP  12. WP_Hook->apply_filters() /Users/ullr/Local Sites/nhmc/app/public/wp-includes/class-wp-hook.php:311
+[28-Jan-2021 17:47:17 UTC] PHP  13. wp_enqueue_scripts() /Users/ullr/Local Sites/nhmc/app/public/wp-includes/class-wp-hook.php:287
+[28-Jan-2021 17:47:17 UTC] PHP  14. do_action() /Users/ullr/Local Sites/nhmc/app/public/wp-includes/script-loader.php:2004
+[28-Jan-2021 17:47:17 UTC] PHP  15. WP_Hook->do_action() /Users/ullr/Local Sites/nhmc/app/public/wp-includes/plugin.php:484
+[28-Jan-2021 17:47:17 UTC] PHP  16. WP_Hook->apply_filters() /Users/ullr/Local Sites/nhmc/app/public/wp-includes/class-wp-hook.php:311
+[28-Jan-2021 17:47:17 UTC] PHP  17. pull_theme_files() /Users/ullr/Local Sites/nhmc/app/public/wp-includes/class-wp-hook.php:287
+[28-Jan-2021 17:47:17 UTC] PHP Warning:  A non-numeric value encountered in /Users/ullr/Local Sites/nhmc/app/public/wp-content/themes/nhmc_theme/functions.php on line 5
+[28-Jan-2021 17:47:17 UTC] PHP Stack trace:
+[28-Jan-2021 17:47:17 UTC] PHP   1. {main}() /Users/ullr/Local Sites/nhmc/app/public/index.php:0
+[28-Jan-2021 17:47:17 UTC] PHP   2. require() /Users/ullr/Local Sites/nhmc/app/public/index.php:17
+[28-Jan-2021 17:47:17 UTC] PHP   3. require_once() /Users/ullr/Local Sites/nhmc/app/public/wp-blog-header.php:19
+[28-Jan-2021 17:47:17 UTC] PHP   4. include() /Users/ullr/Local Sites/nhmc/app/public/wp-includes/template-loader.php:106
+[28-Jan-2021 17:47:17 UTC] PHP   5. get_header() /Users/ullr/Local Sites/nhmc/app/public/wp-content/themes/nhmc_theme/page-template-bod.php:3
+[28-Jan-2021 17:47:17 UTC] PHP   6. locate_template() /Users/ullr/Local Sites/nhmc/app/public/wp-includes/general-template.php:48
+[28-Jan-2021 17:47:17 UTC] PHP   7. load_template() /Users/ullr/Local Sites/nhmc/app/public/wp-includes/template.php:676
+[28-Jan-2021 17:47:17 UTC] PHP   8. require_once() /Users/ullr/Local Sites/nhmc/app/public/wp-includes/template.php:730
+[28-Jan-2021 17:47:17 UTC] PHP   9. wp_head() /Users/ullr/Local Sites/nhmc/app/public/wp-content/themes/nhmc_theme/header.php:4
+[28-Jan-2021 17:47:17 UTC] PHP  10. do_action() /Users/ullr/Local Sites/nhmc/app/public/wp-includes/general-template.php:3005
+[28-Jan-2021 17:47:17 UTC] PHP  11. WP_Hook->do_action() /Users/ullr/Local Sites/nhmc/app/public/wp-includes/plugin.php:484
+[28-Jan-2021 17:47:17 UTC] PHP  12. WP_Hook->apply_filters() /Users/ullr/Local Sites/nhmc/app/public/wp-includes/class-wp-hook.php:311
+[28-Jan-2021 17:47:17 UTC] PHP  13. wp_enqueue_scripts() /Users/ullr/Local Sites/nhmc/app/public/wp-includes/class-wp-hook.php:287
+[28-Jan-2021 17:47:17 UTC] PHP  14. do_action() /Users/ullr/Local Sites/nhmc/app/public/wp-includes/script-loader.php:2004
+[28-Jan-2021 17:47:17 UTC] PHP  15. WP_Hook->do_action() /Users/ullr/Local Sites/nhmc/app/public/wp-includes/plugin.php:484
+[28-Jan-2021 17:47:17 UTC] PHP  16. WP_Hook->apply_filters() /Users/ullr/Local Sites/nhmc/app/public/wp-includes/class-wp-hook.php:311
+[28-Jan-2021 17:47:17 UTC] PHP  17. pull_theme_files() /Users/ullr/Local Sites/nhmc/app/public/wp-includes/class-wp-hook.php:287
+[28-Jan-2021 17:47:17 UTC] PHP Warning:  Division by zero in /Users/ullr/Local Sites/nhmc/app/public/wp-content/themes/nhmc_theme/functions.php on line 5
+[28-Jan-2021 17:47:17 UTC] PHP Stack trace:
+[28-Jan-2021 17:47:17 UTC] PHP   1. {main}() /Users/ullr/Local Sites/nhmc/app/public/index.php:0
+[28-Jan-2021 17:47:17 UTC] PHP   2. require() /Users/ullr/Local Sites/nhmc/app/public/index.php:17
+[28-Jan-2021 17:47:17 UTC] PHP   3. require_once() /Users/ullr/Local Sites/nhmc/app/public/wp-blog-header.php:19
+[28-Jan-2021 17:47:17 UTC] PHP   4. include() /Users/ullr/Local Sites/nhmc/app/public/wp-includes/template-loader.php:106
+[28-Jan-2021 17:47:17 UTC] PHP   5. get_header() /Users/ullr/Local Sites/nhmc/app/public/wp-content/themes/nhmc_theme/page-template-bod.php:3
+[28-Jan-2021 17:47:17 UTC] PHP   6. locate_template() /Users/ullr/Local Sites/nhmc/app/public/wp-includes/general-template.php:48
+[28-Jan-2021 17:47:17 UTC] PHP   7. load_template() /Users/ullr/Local Sites/nhmc/app/public/wp-includes/template.php:676
+[28-Jan-2021 17:47:17 UTC] PHP   8. require_once() /Users/ullr/Local Sites/nhmc/app/public/wp-includes/template.php:730
+[28-Jan-2021 17:47:17 UTC] PHP   9. wp_head() /Users/ullr/Local Sites/nhmc/app/public/wp-content/themes/nhmc_theme/header.php:4
+[28-Jan-2021 17:47:17 UTC] PHP  10. do_action() /Users/ullr/Local Sites/nhmc/app/public/wp-includes/general-template.php:3005
+[28-Jan-2021 17:47:17 UTC] PHP  11. WP_Hook->do_action() /Users/ullr/Local Sites/nhmc/app/public/wp-includes/plugin.php:484
+[28-Jan-2021 17:47:17 UTC] PHP  12. WP_Hook->apply_filters() /Users/ullr/Local Sites/nhmc/app/public/wp-includes/class-wp-hook.php:311
+[28-Jan-2021 17:47:17 UTC] PHP  13. wp_enqueue_scripts() /Users/ullr/Local Sites/nhmc/app/public/wp-includes/class-wp-hook.php:287
+[28-Jan-2021 17:47:17 UTC] PHP  14. do_action() /Users/ullr/Local Sites/nhmc/app/public/wp-includes/script-loader.php:2004
+[28-Jan-2021 17:47:17 UTC] PHP  15. WP_Hook->do_action() /Users/ullr/Local Sites/nhmc/app/public/wp-includes/plugin.php:484
+[28-Jan-2021 17:47:17 UTC] PHP  16. WP_Hook->apply_filters() /Users/ullr/Local Sites/nhmc/app/public/wp-includes/class-wp-hook.php:311
+[28-Jan-2021 17:47:17 UTC] PHP  17. pull_theme_files() /Users/ullr/Local Sites/nhmc/app/public/wp-includes/class-wp-hook.php:287
+[28-Jan-2021 17:47:17 UTC] PHP Warning:  Use of undefined constant styles - assumed 'styles' (this will throw an Error in a future version of PHP) in /Users/ullr/Local Sites/nhmc/app/public/wp-content/themes/nhmc_theme/functions.php on line 5
+[28-Jan-2021 17:47:17 UTC] PHP Stack trace:
+[28-Jan-2021 17:47:17 UTC] PHP   1. {main}() /Users/ullr/Local Sites/nhmc/app/public/index.php:0
+[28-Jan-2021 17:47:17 UTC] PHP   2. require() /Users/ullr/Local Sites/nhmc/app/public/index.php:17
+[28-Jan-2021 17:47:17 UTC] PHP   3. require_once() /Users/ullr/Local Sites/nhmc/app/public/wp-blog-header.php:19
+[28-Jan-2021 17:47:17 UTC] PHP   4. include() /Users/ullr/Local Sites/nhmc/app/public/wp-includes/template-loader.php:106
+[28-Jan-2021 17:47:17 UTC] PHP   5. get_header() /Users/ullr/Local Sites/nhmc/app/public/wp-content/themes/nhmc_theme/page-template-bod.php:3
+[28-Jan-2021 17:47:17 UTC] PHP   6. locate_template() /Users/ullr/Local Sites/nhmc/app/public/wp-includes/general-template.php:48
+[28-Jan-2021 17:47:17 UTC] PHP   7. load_template() /Users/ullr/Local Sites/nhmc/app/public/wp-includes/template.php:676
+[28-Jan-2021 17:47:17 UTC] PHP   8. require_once() /Users/ullr/Local Sites/nhmc/app/public/wp-includes/template.php:730
+[28-Jan-2021 17:47:17 UTC] PHP   9. wp_head() /Users/ullr/Local Sites/nhmc/app/public/wp-content/themes/nhmc_theme/header.php:4
+[28-Jan-2021 17:47:17 UTC] PHP  10. do_action() /Users/ullr/Local Sites/nhmc/app/public/wp-includes/general-template.php:3005
+[28-Jan-2021 17:47:17 UTC] PHP  11. WP_Hook->do_action() /Users/ullr/Local Sites/nhmc/app/public/wp-includes/plugin.php:484
+[28-Jan-2021 17:47:17 UTC] PHP  12. WP_Hook->apply_filters() /Users/ullr/Local Sites/nhmc/app/public/wp-includes/class-wp-hook.php:311
+[28-Jan-2021 17:47:17 UTC] PHP  13. wp_enqueue_scripts() /Users/ullr/Local Sites/nhmc/app/public/wp-includes/class-wp-hook.php:287
+[28-Jan-2021 17:47:17 UTC] PHP  14. do_action() /Users/ullr/Local Sites/nhmc/app/public/wp-includes/script-loader.php:2004
+[28-Jan-2021 17:47:17 UTC] PHP  15. WP_Hook->do_action() /Users/ullr/Local Sites/nhmc/app/public/wp-includes/plugin.php:484
+[28-Jan-2021 17:47:17 UTC] PHP  16. WP_Hook->apply_filters() /Users/ullr/Local Sites/nhmc/app/public/wp-includes/class-wp-hook.php:311
+[28-Jan-2021 17:47:17 UTC] PHP  17. pull_theme_files() /Users/ullr/Local Sites/nhmc/app/public/wp-includes/class-wp-hook.php:287
+[28-Jan-2021 17:47:17 UTC] PHP Warning:  A non-numeric value encountered in /Users/ullr/Local Sites/nhmc/app/public/wp-content/themes/nhmc_theme/functions.php on line 5
+[28-Jan-2021 17:47:17 UTC] PHP Stack trace:
+[28-Jan-2021 17:47:17 UTC] PHP   1. {main}() /Users/ullr/Local Sites/nhmc/app/public/index.php:0
+[28-Jan-2021 17:47:17 UTC] PHP   2. require() /Users/ullr/Local Sites/nhmc/app/public/index.php:17
+[28-Jan-2021 17:47:17 UTC] PHP   3. require_once() /Users/ullr/Local Sites/nhmc/app/public/wp-blog-header.php:19
+[28-Jan-2021 17:47:17 UTC] PHP   4. include() /Users/ullr/Local Sites/nhmc/app/public/wp-includes/template-loader.php:106
+[28-Jan-2021 17:47:17 UTC] PHP   5. get_header() /Users/ullr/Local Sites/nhmc/app/public/wp-content/themes/nhmc_theme/page-template-bod.php:3
+[28-Jan-2021 17:47:17 UTC] PHP   6. locate_template() /Users/ullr/Local Sites/nhmc/app/public/wp-includes/general-template.php:48
+[28-Jan-2021 17:47:17 UTC] PHP   7. load_template() /Users/ullr/Local Sites/nhmc/app/public/wp-includes/template.php:676
+[28-Jan-2021 17:47:17 UTC] PHP   8. require_once() /Users/ullr/Local Sites/nhmc/app/public/wp-includes/template.php:730
+[28-Jan-2021 17:47:17 UTC] PHP   9. wp_head() /Users/ullr/Local Sites/nhmc/app/public/wp-content/themes/nhmc_theme/header.php:4
+[28-Jan-2021 17:47:17 UTC] PHP  10. do_action() /Users/ullr/Local Sites/nhmc/app/public/wp-includes/general-template.php:3005
+[28-Jan-2021 17:47:17 UTC] PHP  11. WP_Hook->do_action() /Users/ullr/Local Sites/nhmc/app/public/wp-includes/plugin.php:484
+[28-Jan-2021 17:47:17 UTC] PHP  12. WP_Hook->apply_filters() /Users/ullr/Local Sites/nhmc/app/public/wp-includes/class-wp-hook.php:311
+[28-Jan-2021 17:47:17 UTC] PHP  13. wp_enqueue_scripts() /Users/ullr/Local Sites/nhmc/app/public/wp-includes/class-wp-hook.php:287
+[28-Jan-2021 17:47:17 UTC] PHP  14. do_action() /Users/ullr/Local Sites/nhmc/app/public/wp-includes/script-loader.php:2004
+[28-Jan-2021 17:47:17 UTC] PHP  15. WP_Hook->do_action() /Users/ullr/Local Sites/nhmc/app/public/wp-includes/plugin.php:484
+[28-Jan-2021 17:47:17 UTC] PHP  16. WP_Hook->apply_filters() /Users/ullr/Local Sites/nhmc/app/public/wp-includes/class-wp-hook.php:311
+[28-Jan-2021 17:47:17 UTC] PHP  17. pull_theme_files() /Users/ullr/Local Sites/nhmc/app/public/wp-includes/class-wp-hook.php:287
+[28-Jan-2021 17:47:17 UTC] PHP Warning:  A non-numeric value encountered in /Users/ullr/Local Sites/nhmc/app/public/wp-content/themes/nhmc_theme/functions.php on line 5
+[28-Jan-2021 17:47:17 UTC] PHP Stack trace:
+[28-Jan-2021 17:47:17 UTC] PHP   1. {main}() /Users/ullr/Local Sites/nhmc/app/public/index.php:0
+[28-Jan-2021 17:47:17 UTC] PHP   2. require() /Users/ullr/Local Sites/nhmc/app/public/index.php:17
+[28-Jan-2021 17:47:17 UTC] PHP   3. require_once() /Users/ullr/Local Sites/nhmc/app/public/wp-blog-header.php:19
+[28-Jan-2021 17:47:17 UTC] PHP   4. include() /Users/ullr/Local Sites/nhmc/app/public/wp-includes/template-loader.php:106
+[28-Jan-2021 17:47:17 UTC] PHP   5. get_header() /Users/ullr/Local Sites/nhmc/app/public/wp-content/themes/nhmc_theme/page-template-bod.php:3
+[28-Jan-2021 17:47:17 UTC] PHP   6. locate_template() /Users/ullr/Local Sites/nhmc/app/public/wp-includes/general-template.php:48
+[28-Jan-2021 17:47:17 UTC] PHP   7. load_template() /Users/ullr/Local Sites/nhmc/app/public/wp-includes/template.php:676
+[28-Jan-2021 17:47:17 UTC] PHP   8. require_once() /Users/ullr/Local Sites/nhmc/app/public/wp-includes/template.php:730
+[28-Jan-2021 17:47:17 UTC] PHP   9. wp_head() /Users/ullr/Local Sites/nhmc/app/public/wp-content/themes/nhmc_theme/header.php:4
+[28-Jan-2021 17:47:17 UTC] PHP  10. do_action() /Users/ullr/Local Sites/nhmc/app/public/wp-includes/general-template.php:3005
+[28-Jan-2021 17:47:17 UTC] PHP  11. WP_Hook->do_action() /Users/ullr/Local Sites/nhmc/app/public/wp-includes/plugin.php:484
+[28-Jan-2021 17:47:17 UTC] PHP  12. WP_Hook->apply_filters() /Users/ullr/Local Sites/nhmc/app/public/wp-includes/class-wp-hook.php:311
+[28-Jan-2021 17:47:17 UTC] PHP  13. wp_enqueue_scripts() /Users/ullr/Local Sites/nhmc/app/public/wp-includes/class-wp-hook.php:287
+[28-Jan-2021 17:47:17 UTC] PHP  14. do_action() /Users/ullr/Local Sites/nhmc/app/public/wp-includes/script-loader.php:2004
+[28-Jan-2021 17:47:17 UTC] PHP  15. WP_Hook->do_action() /Users/ullr/Local Sites/nhmc/app/public/wp-includes/plugin.php:484
+[28-Jan-2021 17:47:17 UTC] PHP  16. WP_Hook->apply_filters() /Users/ullr/Local Sites/nhmc/app/public/wp-includes/class-wp-hook.php:311
+[28-Jan-2021 17:47:17 UTC] PHP  17. pull_theme_files() /Users/ullr/Local Sites/nhmc/app/public/wp-includes/class-wp-hook.php:287
+[28-Jan-2021 17:47:17 UTC] PHP Warning:  Use of undefined constant css’ - assumed 'css’' (this will throw an Error in a future version of PHP) in /Users/ullr/Local Sites/nhmc/app/public/wp-content/themes/nhmc_theme/functions.php on line 5
+[28-Jan-2021 17:47:17 UTC] PHP Stack trace:
+[28-Jan-2021 17:47:17 UTC] PHP   1. {main}() /Users/ullr/Local Sites/nhmc/app/public/index.php:0
+[28-Jan-2021 17:47:17 UTC] PHP   2. require() /Users/ullr/Local Sites/nhmc/app/public/index.php:17
+[28-Jan-2021 17:47:17 UTC] PHP   3. require_once() /Users/ullr/Local Sites/nhmc/app/public/wp-blog-header.php:19
+[28-Jan-2021 17:47:17 UTC] PHP   4. include() /Users/ullr/Local Sites/nhmc/app/public/wp-includes/template-loader.php:106
+[28-Jan-2021 17:47:17 UTC] PHP   5. get_header() /Users/ullr/Local Sites/nhmc/app/public/wp-content/themes/nhmc_theme/page-template-bod.php:3
+[28-Jan-2021 17:47:17 UTC] PHP   6. locate_template() /Users/ullr/Local Sites/nhmc/app/public/wp-includes/general-template.php:48
+[28-Jan-2021 17:47:17 UTC] PHP   7. load_template() /Users/ullr/Local Sites/nhmc/app/public/wp-includes/template.php:676
+[28-Jan-2021 17:47:17 UTC] PHP   8. require_once() /Users/ullr/Local Sites/nhmc/app/public/wp-includes/template.php:730
+[28-Jan-2021 17:47:17 UTC] PHP   9. wp_head() /Users/ullr/Local Sites/nhmc/app/public/wp-content/themes/nhmc_theme/header.php:4
+[28-Jan-2021 17:47:17 UTC] PHP  10. do_action() /Users/ullr/Local Sites/nhmc/app/public/wp-includes/general-template.php:3005
+[28-Jan-2021 17:47:17 UTC] PHP  11. WP_Hook->do_action() /Users/ullr/Local Sites/nhmc/app/public/wp-includes/plugin.php:484
+[28-Jan-2021 17:47:17 UTC] PHP  12. WP_Hook->apply_filters() /Users/ullr/Local Sites/nhmc/app/public/wp-includes/class-wp-hook.php:311
+[28-Jan-2021 17:47:17 UTC] PHP  13. wp_enqueue_scripts() /Users/ullr/Local Sites/nhmc/app/public/wp-includes/class-wp-hook.php:287
+[28-Jan-2021 17:47:17 UTC] PHP  14. do_action() /Users/ullr/Local Sites/nhmc/app/public/wp-includes/script-loader.php:2004
+[28-Jan-2021 17:47:17 UTC] PHP  15. WP_Hook->do_action() /Users/ullr/Local Sites/nhmc/app/public/wp-includes/plugin.php:484
+[28-Jan-2021 17:47:17 UTC] PHP  16. WP_Hook->apply_filters() /Users/ullr/Local Sites/nhmc/app/public/wp-includes/class-wp-hook.php:311
+[28-Jan-2021 17:47:17 UTC] PHP  17. pull_theme_files() /Users/ullr/Local Sites/nhmc/app/public/wp-includes/class-wp-hook.php:287
+[28-Jan-2021 17:47:17 UTC] PHP Warning:  Use of undefined constant ‘all’ - assumed '‘all’' (this will throw an Error in a future version of PHP) in /Users/ullr/Local Sites/nhmc/app/public/wp-content/themes/nhmc_theme/functions.php on line 5
+[28-Jan-2021 17:47:17 UTC] PHP Stack trace:
+[28-Jan-2021 17:47:17 UTC] PHP   1. {main}() /Users/ullr/Local Sites/nhmc/app/public/index.php:0
+[28-Jan-2021 17:47:17 UTC] PHP   2. require() /Users/ullr/Local Sites/nhmc/app/public/index.php:17
+[28-Jan-2021 17:47:17 UTC] PHP   3. require_once() /Users/ullr/Local Sites/nhmc/app/public/wp-blog-header.php:19
+[28-Jan-2021 17:47:17 UTC] PHP   4. include() /Users/ullr/Local Sites/nhmc/app/public/wp-includes/template-loader.php:106
+[28-Jan-2021 17:47:17 UTC] PHP   5. get_header() /Users/ullr/Local Sites/nhmc/app/public/wp-content/themes/nhmc_theme/page-template-bod.php:3
+[28-Jan-2021 17:47:17 UTC] PHP   6. locate_template() /Users/ullr/Local Sites/nhmc/app/public/wp-includes/general-template.php:48
+[28-Jan-2021 17:47:17 UTC] PHP   7. load_template() /Users/ullr/Local Sites/nhmc/app/public/wp-includes/template.php:676
+[28-Jan-2021 17:47:17 UTC] PHP   8. require_once() /Users/ullr/Local Sites/nhmc/app/public/wp-includes/template.php:730
+[28-Jan-2021 17:47:17 UTC] PHP   9. wp_head() /Users/ullr/Local Sites/nhmc/app/public/wp-content/themes/nhmc_theme/header.php:4
+[28-Jan-2021 17:47:17 UTC] PHP  10. do_action() /Users/ullr/Local Sites/nhmc/app/public/wp-includes/general-template.php:3005
+[28-Jan-2021 17:47:17 UTC] PHP  11. WP_Hook->do_action() /Users/ullr/Local Sites/nhmc/app/public/wp-includes/plugin.php:484
+[28-Jan-2021 17:47:17 UTC] PHP  12. WP_Hook->apply_filters() /Users/ullr/Local Sites/nhmc/app/public/wp-includes/class-wp-hook.php:311
+[28-Jan-2021 17:47:17 UTC] PHP  13. wp_enqueue_scripts() /Users/ullr/Local Sites/nhmc/app/public/wp-includes/class-wp-hook.php:287
+[28-Jan-2021 17:47:17 UTC] PHP  14. do_action() /Users/ullr/Local Sites/nhmc/app/public/wp-includes/script-loader.php:2004
+[28-Jan-2021 17:47:17 UTC] PHP  15. WP_Hook->do_action() /Users/ullr/Local Sites/nhmc/app/public/wp-includes/plugin.php:484
+[28-Jan-2021 17:47:17 UTC] PHP  16. WP_Hook->apply_filters() /Users/ullr/Local Sites/nhmc/app/public/wp-includes/class-wp-hook.php:311
+[28-Jan-2021 17:47:17 UTC] PHP  17. pull_theme_files() /Users/ullr/Local Sites/nhmc/app/public/wp-includes/class-wp-hook.php:287

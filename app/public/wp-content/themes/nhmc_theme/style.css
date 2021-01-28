@@ -1,3 +1,14 @@
+/*
+Theme Name: NHMC Theme
+Author: Charles Buxton
+Author URI: https://grizzcode.com
+Description: Wordpress theme to rebuild old site. 
+Version: 1.0.0
+License: GNU General Public License v2 or later
+*/
+
+/* HOME PAGE STYLING STARTS HERE  */
+
 html {
   background-color: #F8F8F8;
 }
@@ -450,7 +461,7 @@ body {
 }
 
 #footer-text {
-  margin: 4% 6% 4% 6%;
+  margin: 4.3% 6% 4% 6%;
 }
 
 #social-header {
@@ -473,4 +484,41 @@ body {
 .social-icon:hover {
   transform: scale(1.2);
 }
+/* HOME PAGE STYLING END  */
+
+
+/* BOD PAGE STYLING STARTS HERE  */
+
+
+
+/* BOD STYLING END */
+
+
+
+
+
+/* PROGRAMS PAGE STYLING STARTS HERE  */
+
+
+
+/* PROGRAMS STYLING END  */
+
+
+
+
+
+/* SUPPORT PAGE STYLING START */
+
+
+/* SUPPORT STYLING END  */
+
+
+
+
+/* BLOG PAGE STYLING STARTS HERE */
+
+
+
+/* BLOG STYLING END  */
+
 

@@ -18,11 +18,11 @@
 
 <div class="nav-container">
   <a title="HOME" href="/">HOME</a>
-  <a title="NHMC BOD" href="nhmc-bod/">NHMC BOD</a>
-  <a title="NHMC PROGRAMS" href="/">NHMC PROGRAMS</a>
-  <a title="SUPPORT" href="/">SUPPORT</a>
-  <a title="BLOG" href="blog/">BLOG</a>
-  <a title="CONTACT NHMC" href="contact-nhmc/">CONTACT NHMC</a>
+  <a title="NHMC BOD" href="/nhmc-bod">NHMC BOD</a>
+  <a title="NHMC PROGRAMS" href="/nhmc-programs">NHMC PROGRAMS</a>
+  <a title="SUPPORT" href="/support">SUPPORT</a>
+  <a title="BLOG" href="/blog">BLOG</a>
+  <a title="CONTACT NHMC" href="index.html#keep-in-touch">CONTACT NHMC</a>
 </div>
 
 
