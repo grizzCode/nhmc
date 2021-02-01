@@ -7,6 +7,7 @@ Version: 1.0.0
 License: GNU General Public License v2 or later
 */
 
+
 /* HOME PAGE STYLING STARTS HERE  */
 
 html {
@@ -45,10 +46,6 @@ body {
   font-weight: 500;
 }
 
-.spacer {
-  height: 200px;
-}
-
 .main {
   height: 1900px;
 }
@@ -56,14 +53,13 @@ body {
 .head-container {
   background-color: #626262;
   padding-top: 20px;
+  height: 150px;
 }
 
 .head-logo {
   height: 110px;
   width: 800px;
   margin: auto;
-  padding-top: 2%;
-  /* padding-bottom: 1%; */
   background-image: url('./images/New-Logo.png');
   background-repeat: no-repeat;
   background-size: auto;
@@ -483,6 +479,7 @@ body {
 
 .social-icon:hover {
   transform: scale(1.2);
+  color: #e6ae48;
 }
 /* HOME PAGE STYLING END  */
 
@@ -521,4 +518,7 @@ body {
 
 /* BLOG STYLING END  */
 
-
+/* JS SELECTORS  */
+.hidden {
+  display: none;
+}
