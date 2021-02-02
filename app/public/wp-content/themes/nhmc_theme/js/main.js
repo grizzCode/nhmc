@@ -16,10 +16,10 @@ wpcf7Elm.addEventListener( 'wpcf7mailfailed ', function( event ) {
 }, false );
 
 // Navigation Mobile Handlers
-var screen_size = document.documentElement.clientWidth
-var desktop_nav = document.querySelector( '.nav-container' );
-var mobile_nav = 
-console.log(screen_size)
-if(screen_size < 960) {
-  desktop_nav.classList.add('hidden')
+var screenSize = document.documentElement.clientWidth
+var desktopNav = document.querySelector( '.nav-container' );
+// var mobileNav = 
+console.log(screenSize)
+if(screenSize < 960) {
+  desktopNav.classList.add('hidden')
 }

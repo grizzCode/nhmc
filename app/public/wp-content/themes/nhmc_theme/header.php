@@ -1,10 +1,16 @@
 <html>
 <head>
 <?php
-    wp_head();
+    wp_head(); 
 ?>
+<!-- PHP FUNCTION TO GET IMAGE PATH TO THEME FOLDERS -->
+<?php
+if (!defined('THEME_IMG_PATH')) {
+  define('THEME_IMG_PATH', get_stylesheet_directory_uri() . '/images');
+} 
+?>
+
   <title>NHMC</title>
-  <!-- <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>"> -->
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
   <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
@@ -14,7 +20,9 @@
 </head>
 
 <div class="head-container">
-  <div class="head-logo"></div>
+  <div class="head-logo">
+    <img src="<?php echo THEME_IMG_PATH; ?>/New-Logo.png"/>
+  </div>
 </div>
 
 <div class="nav-container">
