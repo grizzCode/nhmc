@@ -602,7 +602,7 @@ body {
   }
   .split-content {
     width: 98%;
-    padding: 1% 1% 1% 1%;
+    padding: 1% 1% 4% 1%;
   }
   .half-img {
     width: 100%;
@@ -625,7 +625,7 @@ body {
   .dark-grey {
     flex-direction: column;
     padding-top: 8%;
-    padding-bottom: 14%;
+    padding-bottom: 8%;
   }
 }
 @media only screen and (max-width: 500px) {
