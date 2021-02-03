@@ -38,6 +38,7 @@ body {
   color: rgb(218, 218, 218);
   text-decoration: none;
   transition: all .2s ease-in-out; 
+  font-weight: 600;
 }
 
 .nav-container a:hover {
@@ -82,6 +83,7 @@ body {
   font-size: 20px;
   padding: 5% 5% 5% 5%;
   text-align: center;
+  font-weight: 600;
 }
 
 #mobile-menu i {
@@ -650,17 +652,14 @@ body {
   padding-bottom: 2%;
 }
 
-.about-list li{
+.about-list li {
   font-size: 15px;
   font-weight: bold;
   line-height: 24px;
   margin: 3% 2% 1% 2%;
-  padding: 1% 0% 2% 0%
+  padding: 1% 0% 2% 0%;
   list-style-type: square;
 }
-
-
-
 /* ABOUT STYLING END  */
 
 

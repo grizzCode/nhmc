@@ -297,3 +297,16 @@
 [28-Jan-2021 17:47:17 UTC] PHP  15. WP_Hook->do_action() /Users/ullr/Local Sites/nhmc/app/public/wp-includes/plugin.php:484
 [28-Jan-2021 17:47:17 UTC] PHP  16. WP_Hook->apply_filters() /Users/ullr/Local Sites/nhmc/app/public/wp-includes/class-wp-hook.php:311
 [28-Jan-2021 17:47:17 UTC] PHP  17. pull_theme_files() /Users/ullr/Local Sites/nhmc/app/public/wp-includes/class-wp-hook.php:287
+[03-Feb-2021 23:32:08 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function post_title() in /Users/ullr/Local Sites/nhmc/app/public/wp-content/themes/nhmc_theme/page=template-blog.php:11
+Stack trace:
+#0 /Users/ullr/Local Sites/nhmc/app/public/wp-includes/template-loader.php(106): include()
+#1 /Users/ullr/Local Sites/nhmc/app/public/wp-blog-header.php(19): require_once('/Users/ullr/Loc...')
+#2 /Users/ullr/Local Sites/nhmc/app/public/index.php(17): require('/Users/ullr/Loc...')
+#3 {main}
+  thrown in /Users/ullr/Local Sites/nhmc/app/public/wp-content/themes/nhmc_theme/page=template-blog.php on line 11
+[03-Feb-2021 23:34:31 UTC] PHP Recoverable fatal error:  Object of class WP_Post could not be converted to string in /Users/ullr/Local Sites/nhmc/app/public/wp-content/themes/nhmc_theme/page=template-blog.php on line 11
+[03-Feb-2021 23:34:31 UTC] PHP Stack trace:
+[03-Feb-2021 23:34:31 UTC] PHP   1. {main}() /Users/ullr/Local Sites/nhmc/app/public/index.php:0
+[03-Feb-2021 23:34:31 UTC] PHP   2. require() /Users/ullr/Local Sites/nhmc/app/public/index.php:17
+[03-Feb-2021 23:34:31 UTC] PHP   3. require_once() /Users/ullr/Local Sites/nhmc/app/public/wp-blog-header.php:19
+[03-Feb-2021 23:34:31 UTC] PHP   4. include() /Users/ullr/Local Sites/nhmc/app/public/wp-includes/template-loader.php:106
