@@ -158,7 +158,7 @@
       <h3>KEEP IN TOUCH</h3>
       <div class="black-divider"></div>
       </div>
-      <div class="form-header">
+      <div class="form-header" id="contact-header">
         <h3>We’d love to hear from you!</h3>
       </div>
       <div class="form-wrapper">
