@@ -1,14 +1,15 @@
 <html>
+
 <head>
-<?php
-    wp_head(); 
-?>
-<!-- PHP FUNCTION TO GET IMAGE PATH TO THEME FOLDERS -->
-<?php
-if (!defined('THEME_IMG_PATH')) {
-  define('THEME_IMG_PATH', get_stylesheet_directory_uri() . '/images');
-} 
-?>
+  <?php
+  wp_head();
+  ?>
+  <!-- PHP FUNCTION TO GET IMAGE PATH TO THEME FOLDERS -->
+  <?php
+  if (!defined('THEME_IMG_PATH')) {
+    define('THEME_IMG_PATH', get_stylesheet_directory_uri() . '/images');
+  }
+  ?>
 
   <title>NHMC</title>
   <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -16,12 +17,12 @@ if (!defined('THEME_IMG_PATH')) {
   <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
   <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
- 
+
 </head>
 
 <div class="head-container">
   <div class="head-logo">
-    <img src="<?php echo THEME_IMG_PATH; ?>/New-Logo.png"/>
+    <img src="<?php echo THEME_IMG_PATH; ?>/New-Logo.png" />
   </div>
 </div>
 
@@ -35,5 +36,19 @@ if (!defined('THEME_IMG_PATH')) {
   <a title="CONTACT NHMC" href="index.html#contact-header">CONTACT NHMC</a>
 </div>
 
+<div class="mobile-nav">
+  <i class="fas fa-bars" onclick="openMenu()"></i>
+</div>
+
+<div id="mobile-menu">
+  <a title="HOME" href="/">HOME</a>
+  <a title="ABOUT" href="/about-nhmc">ABOUT</a>
+  <a title="NHMC BOD" href="/nhmc-bod">NHMC BOD</a>
+  <a title="NHMC PROGRAMS" href="/nhmc-programs">NHMC PROGRAMS</a>
+  <a title="SUPPORT" href="/support">SUPPORT</a>
+  <a title="BLOG" href="/blog">BLOG</a>
+  <a title="CONTACT NHMC" href="index.html#contact-header">CONTACT NHMC</a>
+  <i class="fas fa-caret-up" onclick="closeMenu()"></i>
+</div>
 
 <body>
