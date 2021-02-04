@@ -185,6 +185,7 @@ body {
   text-align: center;
   font-size: 14px;
   letter-spacing: 1.8px;
+  height: 18px;
 }
 
 .button-style-1:hover {
@@ -683,6 +684,53 @@ body {
 
 
 /* BLOG PAGE STYLING STARTS HERE */
+.blog-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.blog-post-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 430px;
+  width: 100%;
+  background-color:rgb(231, 231, 231);
+  margin: 2% 1% 2% 1%;
+  box-shadow: 5px 5px 10px rgb(59, 59, 59);
+}
+
+.blog-thumbnail-wrapper {
+  height: 324px;
+}
+
+.blog-excerpt {
+  margin: 0% 2% 0% 2%;
+  min-height: 260px;
+}
+
+.blog-button-wrapper {
+  height: 80px;
+  margin-top: 4%;
+}
+
+.blog-button {
+  background-color:#e6ae48;
+  border: 2px solid #e6ae48;
+  padding: 10px 30px 10px 30px;
+  text-decoration: none;
+  color: white;
+  text-align: center;
+  font-size: 14px;
+  letter-spacing: 1.8px;
+}
+
+.blog-button:hover {
+  background-color: white;
+  color: #e6ae48;
+}
+
 
 
 

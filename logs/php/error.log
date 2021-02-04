@@ -310,3 +310,19 @@ Stack trace:
 [03-Feb-2021 23:34:31 UTC] PHP   2. require() /Users/ullr/Local Sites/nhmc/app/public/index.php:17
 [03-Feb-2021 23:34:31 UTC] PHP   3. require_once() /Users/ullr/Local Sites/nhmc/app/public/wp-blog-header.php:19
 [03-Feb-2021 23:34:31 UTC] PHP   4. include() /Users/ullr/Local Sites/nhmc/app/public/wp-includes/template-loader.php:106
+[04-Feb-2021 16:21:49 UTC] PHP Parse error:  syntax error, unexpected 'endwhile' (T_ENDWHILE) in /Users/ullr/Local Sites/nhmc/app/public/wp-content/themes/nhmc_theme/page=template-blog.php on line 24
+[04-Feb-2021 16:48:35 UTC] PHP Parse error:  syntax error, unexpected '$post' (T_VARIABLE), expecting ')' in /Users/ullr/Local Sites/nhmc/app/public/wp-content/themes/nhmc_theme/page=template-blog.php on line 23
+[04-Feb-2021 16:50:48 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_post_thumbnail() in /Users/ullr/Local Sites/nhmc/app/public/wp-content/themes/nhmc_theme/page=template-blog.php:23
+Stack trace:
+#0 /Users/ullr/Local Sites/nhmc/app/public/wp-includes/template-loader.php(106): include()
+#1 /Users/ullr/Local Sites/nhmc/app/public/wp-blog-header.php(19): require_once('/Users/ullr/Loc...')
+#2 /Users/ullr/Local Sites/nhmc/app/public/index.php(17): require('/Users/ullr/Loc...')
+#3 {main}
+  thrown in /Users/ullr/Local Sites/nhmc/app/public/wp-content/themes/nhmc_theme/page=template-blog.php on line 23
+[04-Feb-2021 17:00:52 UTC] PHP Warning:  Use of undefined constant ‘my_excerpt_length’ - assumed '‘my_excerpt_length’' (this will throw an Error in a future version of PHP) in /Users/ullr/Local Sites/nhmc/app/public/wp-content/themes/nhmc_theme/functions.php on line 11
+[04-Feb-2021 17:00:52 UTC] PHP Stack trace:
+[04-Feb-2021 17:00:52 UTC] PHP   1. {main}() /Users/ullr/Local Sites/nhmc/app/public/wp-admin/admin-ajax.php:0
+[04-Feb-2021 17:00:52 UTC] PHP   2. require_once() /Users/ullr/Local Sites/nhmc/app/public/wp-admin/admin-ajax.php:22
+[04-Feb-2021 17:00:52 UTC] PHP   3. require_once() /Users/ullr/Local Sites/nhmc/app/public/wp-load.php:37
+[04-Feb-2021 17:00:52 UTC] PHP   4. require_once() /Users/ullr/Local Sites/nhmc/app/public/wp-config.php:77
+[04-Feb-2021 17:00:52 UTC] PHP   5. include() /Users/ullr/Local Sites/nhmc/app/public/wp-settings.php:525
