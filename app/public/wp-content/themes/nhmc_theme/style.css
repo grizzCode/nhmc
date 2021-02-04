@@ -696,7 +696,7 @@ body {
   align-items: center;
   max-width: 430px;
   width: 100%;
-  background-color:rgb(231, 231, 231);
+  background-color:white;
   margin: 2% 1% 2% 1%;
   box-shadow: 5px 5px 10px rgb(59, 59, 59);
 }
