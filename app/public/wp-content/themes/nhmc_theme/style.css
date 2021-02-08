@@ -8,8 +8,6 @@ License: GNU General Public License v2 or later
 */
 
 
-/* HOME PAGE STYLING STARTS HERE  */
-
 html {
   background-color: #F8F8F8;
 }
@@ -20,7 +18,12 @@ body {
   font-family: 'Montserrat', sans-serif;
 }
 
-/* NAVIGATION STYLING STARTS HERE  */
+p {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 18px;
+}
+
+/* ________________________________________NAVIGATION STYLING START________________________________________  */
 .nav-container {
   height: 66px;
   display: flex;
@@ -90,8 +93,9 @@ body {
   font-size: 38px;
   margin: auto;
 }
-/* NAV STYLING ENDS HERE  */
+/* ________________________________________NAV STYLING ENDS HERE________________________________________  */
 
+/* ________________________________________HOME PAGE STYLING START ________________________________________ */
 .main {
   height: 1900px;
 }
@@ -287,10 +291,13 @@ body {
   align-items: center;
 }
 
+.service-item p {
+  font-family: 'Montserrat', sans-serif;
+}
 .service-item-text {
   width: 75%;
-  letter-spacing: 1.8px;
   margin: 0% 8% 0% 8%;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .service-item-text h4 {
@@ -346,6 +353,10 @@ body {
   padding: 4% 0% 2% 0%;
   border-bottom: 1px solid lightgrey;
   margin: 0;
+}
+
+.rpwwt-post-excerpt {
+  font-family: 'Cormorant Garamond', serif;
 }
 
 .rpwwt-widget ul li a {
@@ -545,10 +556,10 @@ body {
   transform: scale(1.2);
   color: #e6ae48;
 }
-/* HOME PAGE STYLING END  */
+/* ________________________________________HOME PAGE STYLING END ________________________________________ */
 
 
-/* BOD PAGE STYLING STARTS HERE  */
+/* ________________________________________BOD PAGE STYLING START ________________________________________ */
 
 .page-heading {
   background-color: #4A4A4A;
@@ -607,9 +618,9 @@ body {
   }
 }
 
-/* BOD STYLING END */
+/* ________________________________________BOD STYLING END________________________________________ */
 
-/* ABOUT PAGE STYLING STARTS HERE  */
+/* ________________________________________ABOUT PAGE STYLING START ________________________________________ */
 .about-wrapper {
   padding: 2% 8% 2% 8%;
   line-height: 22px;
@@ -642,6 +653,7 @@ body {
   width: 45.8%;
   margin: 2% 4% 0% 2%;
   background-color: lightgrey;
+  
 }
 
 .about-phase-heading-right {
@@ -654,36 +666,39 @@ body {
 }
 
 .about-list li {
-  font-size: 15px;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 18px;
   font-weight: bold;
   line-height: 24px;
   margin: 3% 2% 1% 2%;
   padding: 1% 0% 2% 0%;
   list-style-type: square;
 }
-/* ABOUT STYLING END  */
+/*  ________________________________________ABOUT STYLING END ________________________________________  */
 
 
 
-/* PROGRAMS PAGE STYLING STARTS HERE  */
+/*  ________________________________________PROGRAMS PAGE STYLING START ________________________________________  */
 
 
 
-/* PROGRAMS STYLING END  */
-
-
-
-
-
-/* SUPPORT PAGE STYLING START */
-
-
-/* SUPPORT STYLING END  */
+/*  ________________________________________PROGRAMS STYLING END ________________________________________  */
 
 
 
 
-/* BLOG PAGE STYLING STARTS HERE */
+
+/* ________________________________________SUPPORT PAGE STYLING START________________________________________ */
+
+
+
+
+/* ________________________________________SUPPORT STYLING END________________________________________  */
+
+
+
+
+/* ________________________________________BLOG PAGE STYLING START________________________________________ */
 .blog-wrapper {
   display: flex;
   flex-wrap: wrap;
@@ -710,6 +725,10 @@ body {
   min-height: 260px;
 }
 
+.blog-excerpt p {
+  margin: 0% 1% 0% 1%;
+}
+
 .blog-button-wrapper {
   height: 80px;
   margin-top: 4%;
@@ -734,9 +753,31 @@ body {
 
 
 
-/* BLOG STYLING END  */
+/* ________________________________________BLOG STYLING END________________________________________  */
 
-/* MEDIA QUERIES  */
+/* ________________________________________SINGLE POST PAGE STYLING START________________________________________  */
+.single-title {
+  text-align: center;
+  margin-top: 4%;
+}
+
+.single-date {
+  text-align: center;
+}
+
+.single-content {
+  padding: 1% 6% 6% 6%;
+}
+
+.single-content img {
+  width: 100%;
+  height: auto;
+}
+
+
+/* ________________________________________SINGLE POST STYLING END________________________________________ */
+
+/* ________________________________________MEDIA QUERIES________________________________________  */
 @media only screen and (max-width: 960px) {
 .nav-container {
   display: none;
@@ -818,7 +859,7 @@ body {
 
 }
 
-/* JS SELECTORS  */
+/* ________________________________________JS SELECTORS________________________________________  */
 .hidden {
   display: none;
 }
